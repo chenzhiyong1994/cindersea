@@ -2,7 +2,7 @@
 
 **一款以东方幻想城市为背景的单人战棋 roguelike。** 从五位同行者中组成三人小队，在十二层分支旅途中学习招式、组合旧物，登上曜京天阙。
 
-[English](README.md) · [项目主页](https://chenzhiyong1994.github.io/dicebound/) · [构建游戏](#build) · [反馈问题](https://github.com/chenzhiyong1994/dicebound/issues)
+[English](README.md) · [项目主页](https://chenzhiyong1994.github.io/dicebound/) · [下载游玩](#play) · [构建游戏](#build) · [反馈问题](https://github.com/chenzhiyong1994/dicebound/issues)
 
 这是基于可玩版本 **0.22.4** 的首个公开版本 **Beta 1**。游戏界面与剧情目前为**简体中文**，英文 README 仅为项目文档。
 
@@ -30,9 +30,13 @@
 <a id="play"></a>
 ## 开始游戏
 
-Beta 1 本次以**源码版**发布。按下方[构建说明](#build)即可生成 Windows 游戏；本次公开内容不包含可下载的 Windows 发行包。
+**[下载 Windows x64 安装包 · Beta 1](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe)**
 
-Windows 发行包需完整解压，再运行 `Dicebound.exe`；请保留同目录的数据文件夹、运行库和许可说明。从标题开始新旅程，召集三人，再选择相连的路线节点。默认难度为**踏岚**，另外三档为**破障、逆潮、登阙**。
+[免安装 ZIP](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) · [SHA-256 校验值](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) · [版本说明](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1)
+
+下载安装包后，按向导完成安装。使用免安装版时，完整解压 ZIP 再运行 `Dicebound.exe`；请保留同目录的数据文件夹、运行库和许可说明。两种方式都不需要安装 Unity 或开发环境。安装程序与游戏程序尚未进行代码签名，Windows 可能显示发布者或信誉提示；[下载与校验说明](manual/build.md#download)提供文件校验方法。
+
+从标题开始新旅程，召集三人，再选择相连的路线节点。默认难度为**踏岚**，另外三档为**破障、逆潮、登阙**。
 
 | 操作 | 用途 |
 | --- | --- |

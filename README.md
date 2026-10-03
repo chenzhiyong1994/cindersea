@@ -2,7 +2,7 @@
 
 **A single-player tactical roguelike set in a Chinese fantasy city.** Choose three companions, build their skills, and climb a branching twelve-floor route toward the sunwheel above Yaojing.
 
-[简体中文](README.zh-CN.md) · [Project website](https://chenzhiyong1994.github.io/dicebound/) · [Build the game](#build) · [Report a bug](https://github.com/chenzhiyong1994/dicebound/issues)
+[简体中文](README.zh-CN.md) · [Project website](https://chenzhiyong1994.github.io/dicebound/) · [Download & play](#play) · [Build the game](#build) · [Report a bug](https://github.com/chenzhiyong1994/dicebound/issues)
 
 **Beta 1** is based on the playable **0.22.4** version. The game interface and story are currently in **Simplified Chinese**; these English docs do not imply an English localization.
 
@@ -30,9 +30,13 @@ The presentation combines painted environments, pixel characters, ink-and-jade p
 <a id="play"></a>
 ## Play
 
-Beta 1 is a **source release**. Follow [Build](#build) below to produce the Windows Player; this publication does not include a downloadable Windows package.
+**[Download Windows x64 installer · Beta 1](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe)**
 
-For a Windows package, extract the entire archive and run `Dicebound.exe`. Keep its data folder, runtime files, and notices beside it. Begin a new journey, select three companions, and choose a connected route node. The default difficulty is **踏岚**; the other settings are **破障**, **逆潮**, and **登阙**.
+[Portable ZIP](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) · [SHA-256 checksums](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) · [Release notes](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1)
+
+Run the installer and follow its setup steps. For the portable version, extract the entire ZIP and run `Dicebound.exe`; keep its data folder, runtime files, and notices beside it. Neither package requires Unity or a development environment. The installer and game executable are not code-signed, so Windows may display a publisher or reputation warning. See the [download and checksum guide](manual/build.md#download) for package verification.
+
+Begin a new journey, select three companions, and choose a connected route node. The default difficulty is **踏岚**; the other settings are **破障**, **逆潮**, and **登阙**.
 
 | Input | Action |
 | --- | --- |

@@ -2,6 +2,38 @@
 
 [English README](../README.md#build) · [中文 README](../README.zh-CN.md#build)
 
+<a id="download"></a>
+## Download and play / 下载游玩
+
+For **Windows x64**, choose a package from [Beta 1](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1):
+
+在 **Windows x64** 上，从 [Beta 1 发行页](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1)选择：
+
+| Package / 发行包 | Use / 使用方式 |
+| --- | --- |
+| [Setup.exe](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe) | Follow the setup wizard / 按向导完成安装 |
+| [Portable ZIP / 免安装 ZIP](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) | Extract everything, then run `Dicebound.exe` / 完整解压后运行 `Dicebound.exe` |
+
+You do not need Unity, PowerShell 7, or the .NET SDK to play. Keep all portable-package files together. The game interface is in Simplified Chinese. Both packages contain the same Beta 1 game; the installer and game executable are not code-signed, so Windows may show a publisher or reputation warning.
+
+游玩不需要 Unity、PowerShell 7 或 .NET SDK。免安装版请保留全部同目录文件。游戏界面为简体中文，两种发行包包含相同的 Beta 1 游戏。安装程序与游戏程序暂未代码签名，Windows 可能显示发布者或信誉提示。
+
+The installer runs **for the current user without administrator privileges**, using `%LOCALAPPDATA%\Programs\Dicebound` by default. It adds a Start menu entry and offers an optional desktop shortcut. Uninstall through Windows Settings; uninstalling removes installed program files and shortcuts but keeps your LocalLow saves. The portable version uses the same save location.
+
+安装程序**仅为当前用户安装，无需管理员权限**，默认目录为 `%LOCALAPPDATA%\Programs\Dicebound`。安装后提供开始菜单入口，桌面快捷方式可按需勾选。可在 Windows 设置中卸载；卸载会移除安装的程序文件和快捷方式，并保留 LocalLow 中的存档。免安装版使用相同的存档位置。
+
+Download [SHA256SUMS.txt](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) from the same release. In PowerShell, compute the downloaded file's SHA-256 and compare the full value with its matching filename in that file:
+
+从同一发行页下载 [SHA256SUMS.txt](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt)，在 PowerShell 中计算已下载文件的 SHA-256，并与清单中对应文件名的完整值逐位核对：
+
+```powershell
+Get-FileHash "./Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe" -Algorithm SHA256
+```
+
+A matching hash checks file integrity; it does not replace code signing. Save locations and backup instructions are [below](#saves-and-isolated-testing--存档与隔离检查).
+
+校验值一致表示文件完整性匹配，不能代替代码签名。存档位置与备份方法见[下方](#saves-and-isolated-testing--存档与隔离检查)。
+
 ## Requirements / 环境要求
 
 | Tool / 工具 | Version or requirement / 版本或要求 |
@@ -17,9 +49,9 @@ Install Unity separately and accept its applicable terms. First import requires 
 
 请单独安装 Unity 并遵守其适用条款。首次导入需要联网获取 Unity 依赖。构建及运行已提交的游戏不需要 Node.js、图像生成服务或视频生成账号。
 
-The independently exported Beta 1 project has passed a fresh Windows build. A full regression pass and final in-game visual review have not been performed for this publication. This is a source release; build the Player using the steps below.
+The independently exported Beta 1 project has passed a fresh Windows build. A full regression pass and final in-game visual review have not been performed for this publication. To build your own Player, follow the steps below.
 
-独立导出的 Beta 1 工程已通过全新 Windows 构建；本次未执行完整回归或最终实机视觉验收。本次为源码发布，可按下文生成 Player。
+独立导出的 Beta 1 工程已通过全新 Windows 构建；本次未执行完整回归或最终实机视觉验收。需要自行构建时，可按下文生成 Player。
 
 ## Build the Windows Player / 构建 Windows 游戏
 
@@ -96,6 +128,47 @@ Do not attach a save to a public issue without checking its contents. Never comm
 
 ## Packaging / 打包
 
-A Windows archive needs the executable, its data directory, and all Unity runtime files produced beside it. Include [ASSET_NOTICES.md](../ASSET_NOTICES.md), the code [LICENSE](../LICENSE), and a `Credits/` folder with the third-party notices and all font licenses. See the asset notice for the license boundary; the Unity runtime is not MIT-licensed project code.
+First [build the Windows Player](#build-the-windows-player--构建-windows-游戏) in this checkout. The packaging script needs its `Library/PackageCache` to collect dependency notices. Install **Inno Setup 6 or later** to compile the installer, then run from the repository root:
 
-Windows 压缩包需要保留可执行文件、数据目录及随构建生成的全部 Unity 运行文件，并附上 [ASSET_NOTICES.md](../ASSET_NOTICES.md)、代码 [LICENSE](../LICENSE)，以及包含第三方声明和全部字体许可的 `Credits/`。Unity 运行组件不属于项目 MIT 代码。
+先在当前 checkout 中[构建 Windows Player](#build-the-windows-player--构建-windows-游戏)。打包脚本需要该工程的 `Library/PackageCache` 来收集依赖许可。安装 **Inno Setup 6 或更高版本**后，在仓库根目录执行：
+
+```powershell
+pwsh -NoProfile -File tools/package-native.ps1 -IsccPath "C:/Program Files (x86)/Inno Setup 6/ISCC.exe"
+```
+
+Replace the example `ISCC.exe` path with your installation. Alternatively, set `INNO_SETUP_COMPILER` and omit `-IsccPath`; when neither is set, the script checks `PATH` and common Inno Setup 6 installation directories:
+
+将示例 `ISCC.exe` 路径替换为实际安装位置。也可设置 `INNO_SETUP_COMPILER` 后省略 `-IsccPath`；两者均未设置时，脚本会检查 `PATH` 及常见的 Inno Setup 6 安装目录：
+
+```powershell
+$env:INNO_SETUP_COMPILER = "C:/Program Files (x86)/Inno Setup 6/ISCC.exe"
+pwsh -NoProfile -File tools/package-native.ps1
+```
+
+The default input is `native/Dicebound/Builds/Windows`. The script gathers the allowed runtime files and license notices, creates the portable archive, and invokes `tools/installer/Dicebound.iss` to compile the installer. With the default `-Version 0.22.4`, the output is:
+
+默认输入为 `native/Dicebound/Builds/Windows`。脚本收集允许分发的运行文件和许可声明，生成免安装压缩包，再调用 `tools/installer/Dicebound.iss` 编译安装程序。默认版本参数为 `-Version 0.22.4`，输出内容为：
+
+```text
+dist/Dicebound-0.22.4-beta.1/
+  Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe
+  Dicebound-0.22.4-beta.1-Windows-x64.zip
+  SHA256SUMS.txt
+  payload/Dicebound/
+```
+
+The `payload` folder is the unpacked package content; publish the installer, ZIP, and checksum file as release attachments. Each package contains `Credits/` with [ASSET_NOTICES.md](../ASSET_NOTICES.md), the code [LICENSE](../LICENSE), third-party notices, font licenses, and Unity package notices. Unity runtime components are not MIT-licensed project code.
+
+`payload` 保存未压缩的发行内容；发布时将安装包、ZIP 和校验文件作为发行附件。两种包均附带 `Credits/`，其中包含 [ASSET_NOTICES.md](../ASSET_NOTICES.md)、代码 [LICENSE](../LICENSE)、第三方声明、字体许可和 Unity 包许可。Unity 运行组件不属于项目 MIT 代码。
+
+To produce only the portable ZIP and its checksum, use `-PortableOnly`; Inno Setup is not required for this mode:
+
+仅生成免安装 ZIP 及其校验值时，使用 `-PortableOnly`，此模式不需要 Inno Setup：
+
+```powershell
+pwsh -NoProfile -File tools/package-native.ps1 -PortableOnly -OutputDirectory "./dist/portable-only"
+```
+
+Optional `-BuildPath` selects another complete Windows build; `-OutputDirectory` selects a new output directory. The script **refuses to overwrite any existing output directory**, including an empty directory or output retained after a failed build. Choose a different output path when rerunning. Output must be outside the input build. `-Version` must match `bundleVersion` in `ProjectSettings.asset`.
+
+可用 `-BuildPath` 指定另一份完整的 Windows 构建，用 `-OutputDirectory` 指定新的输出目录。脚本**拒绝覆盖任何已存在的输出目录**，包括空目录或上次失败后保留的产物；重跑时请选择新的输出路径。输出目录必须位于输入构建之外，`-Version` 必须与 `ProjectSettings.asset` 中的 `bundleVersion` 一致。

@@ -37,3 +37,6 @@ tactical-journey.json
 tactical-chronicle.json
 .DS_Store
 Thumbs.db
+
+# Packaged Windows releases (uploaded separately)
+dist/

@@ -5,7 +5,7 @@
     skip: "Skip to content", brandSub: "烬海天阙", brandHome: "Dicebound home", navLabel: "Main navigation", navJourney: "The ascent", navCompanions: "Companions", navBeta: "About the beta",
     heroTag: "FIRST BETA · OPEN-SOURCE TACTICAL ROGUELIKE", heroLine: "Three companions. Twelve floors. One shared ascent.",
     heroDescription: "Enter Yaojing, a city of mountain kingdoms and ancient machinery. Choose your companions. Turn terrain, skills and relics into a winning strategy. Every floor brings a different possibility.",
-    source: "Explore the source", build: "Build & play", singlePlayer: "Single-player · Chinese UI", scroll: "Discover the journey", factsLabel: "Beta content",
+    source: "Explore the source", download: "Download Windows Beta", portable: "Portable ZIP", checksums: "SHA-256 checksums", releaseNotes: "Release notes", downloadLinksLabel: "Other downloads and release information", singlePlayer: "Single-player · Chinese UI", scroll: "Discover the journey", factsLabel: "Beta content",
     factParty: "Five companions. A party of three.", factFloors: "Floors of branching routes", factContent: "Relics and journey events", factDifficulty: "Ascent difficulties",
     journeyKicker: "01 / THE ASCENT", journeyTitle: "Every step shapes the battle.", journeyIntro: "Read the field. Find your opening.<br>Bring tactics and builds together on every ascent.",
     battleAlt: "Development gameplay: three companions face mechanical enemies on a stone bridge battlefield, with skill cards along the bottom.", battleCaption: "Development gameplay · The interface may differ from the current beta",
@@ -16,8 +16,8 @@
     nameSixuan: "Si Xuan", nameLingfeng: "Ling Feng", nameCangling: "Cang Ling", nameYanzhuying: "Yan Zhuying", nameShangshuo: "Shang Shuo",
     roleSixuan: "Control · Protection", roleLingfeng: "Melee · Disruption", roleCangling: "Healing · Tides", roleYanzhuying: "Shadows · Ambush", roleShangshuo: "Guard · Retaliation", ultimateLabel: "SIGNATURE ULTIMATE",
     betaKicker: "03 / FIRST BETA", betaTitle: "A first step.<br>An open invitation.", betaIntro: "This is Dicebound’s first open-source beta. Help shape its tactical feel, explore its builds, and refine the details of this hand-painted world.", feedback: "Share feedback or report an issue",
-    platformLabel: "CURRENT PLATFORM", platformValue: "Windows · Single-player · Simplified Chinese game UI", engineLabel: "DEVELOPMENT STACK", statusLabel: "BETA SCOPE", statusValue: "Balance, interfaces and effects are still evolving. Full regression testing and broad device compatibility checks have not been completed.", licenseLabel: "SOURCE & LICENSES", licenseValue: "See the repository’s licenses and provenance notes for the terms applying to code, artwork and third-party content.",
-    closingTitle: "The next step is yours.", visitGithub: "Visit GitHub", readBuild: "Read the build guide →", footerNote: "Together, toward the sky.", assetSources: "Website asset sources"
+    platformLabel: "CURRENT PLATFORM", platformValue: "Windows x64 · Single-player · Simplified Chinese game UI", packageLabel: "INSTALL & PLAY", packageValue: "Neither package requires Unity. The executables are not code-signed; Windows may display a publisher or reputation warning.", engineLabel: "DEVELOPMENT STACK", statusLabel: "BETA SCOPE", statusValue: "Balance, interfaces and effects are still evolving. Full regression testing and broad device compatibility checks have not been completed.", licenseLabel: "SOURCE & LICENSES", licenseValue: "See the repository’s licenses and provenance notes for the terms applying to code, artwork and third-party content.",
+    closingTitle: "The next step is yours.", readBuild: "Read the build guide →", footerNote: "Together, toward the sky.", assetSources: "Website asset sources"
   };
 
   const companions = {
