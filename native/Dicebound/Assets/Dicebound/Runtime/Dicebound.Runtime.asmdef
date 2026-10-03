@@ -1,0 +1,5 @@
+{
+  "name": "Dicebound.Runtime",
+  "rootNamespace": "Dicebound.Presentation",
+  "references": ["Dicebound.Core", "Dicebound.Persistence", "Unity.ugui", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime"]
+}

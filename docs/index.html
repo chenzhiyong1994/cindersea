@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#101f20">
+  <title>烬海天阙 · Dicebound — First Beta</title>
+  <meta name="description" content="三人同行，十二层登阙。烬海天阙 Dicebound 是一款以手绘东方幻想世界为舞台的单人战棋 roguelike，首个 Beta 已开源。">
+  <link rel="canonical" href="https://chenzhiyong1994.github.io/dicebound/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="烬海天阙 · Dicebound — First Beta">
+  <meta property="og:description" content="Three companions. Twelve floors. An open-source tactical roguelike in a hand-painted fantasy world.">
+  <meta property="og:url" content="https://chenzhiyong1994.github.io/dicebound/">
+  <meta property="og:image" content="https://chenzhiyong1994.github.io/dicebound/assets/yaojing.webp">
+  <link rel="icon" href="assets/emblem.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/yaojing.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">跳至正文</a>
+  <header class="site-header">
+    <a href="#" class="wordmark" aria-label="Dicebound 首页" data-i18n-aria="brandHome"><img src="assets/emblem.svg" width="32" height="32" alt=""><span>DICEBOUND<small data-i18n="brandSub">烬海天阙</small></span></a>
+    <nav aria-label="主要导航" data-i18n-aria="navLabel">
+      <a href="#journey" data-i18n="navJourney">登阙之旅</a>
+      <a href="#companions" data-i18n="navCompanions">同行者</a>
+      <a href="#beta" data-i18n="navBeta">关于 Beta</a>
+    </nav>
+    <div class="header-actions"><button id="language" type="button" aria-label="Switch to English" lang="en">EN</button><a class="header-github" href="https://github.com/chenzhiyong1994/dicebound">GitHub <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-art" src="assets/yaojing.webp" alt="" width="1920" height="1080" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow"><span class="beta-dot"></span><span data-i18n="heroTag">首个公开 Beta · 开源战棋 Roguelike</span></p>
+        <h1 id="hero-title">烬海天阙</h1>
+        <p class="hero-english">D I C E B O U N D</p>
+        <div class="gold-rule" aria-hidden="true"><span>◆</span></div>
+        <h2 data-i18n="heroLine">三人同行，踏过十二重天阙。</h2>
+        <p class="hero-summary" data-i18n="heroDescription">在山海与机关交织的曜京，选定同行者，借地势、连招与旧物破局。每一层的选择，都让队伍走向不同的可能。</p>
+        <div class="hero-actions"><a class="button primary" href="https://github.com/chenzhiyong1994/dicebound"><span data-i18n="source">探索源代码</span><span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/chenzhiyong1994/dicebound#build"><span data-i18n="build">构建与游玩</span><span aria-hidden="true">→</span></a></div>
+        <p class="platform"><span>Windows</span><span>Unity 6.3 LTS</span><span data-i18n="singlePlayer">单人游戏 · 简体中文</span></p>
+      </div>
+      <span class="hero-stamp" aria-hidden="true">同<br>行<br>登<br>阙</span>
+      <a class="scroll-cue" href="#journey"><span data-i18n="scroll">展开这段旅程</span><span aria-hidden="true">↓</span></a>
+    </section>
+    <div class="facts wrap" aria-label="Beta 内容" data-i18n-aria="factsLabel">
+      <div><strong>5 <span>/ 3</span></strong><span data-i18n="factParty">五位同行者，三人结队</span></div>
+      <div><strong>12</strong><span data-i18n="factFloors">层分支登阙路线</span></div>
+      <div><strong>34 <span>+ 18</span></strong><span data-i18n="factContent">件旧物与段旅途事件</span></div>
+      <div><strong>4</strong><span data-i18n="factDifficulty">档登阙试炼</span></div>
+    </div>
+    <section class="journey wrap section" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="journeyKicker">01 / 登阙之旅</p><h2 id="journey-title" data-i18n="journeyTitle">落子有据，步步成势。</h2></div><p data-i18n="journeyIntro">先读懂战场，再打出你的解法。<br>一场攀登，连起战术与构筑。</p></div>
+      <figure class="battle-frame"><img src="assets/battle-development.webp" width="1600" height="900" alt="开发期战斗画面：三位同行者在石桥战场面对机关敌人，底部展示技能卡片。" data-i18n-alt="battleAlt" loading="lazy"><figcaption><span class="frame-mark">◆</span><span data-i18n="battleCaption">开发期实机画面 · 界面可能与当前 Beta 存在差异</span><span class="frame-mark">◆</span></figcaption></figure>
+      <div class="principles">
+        <article><span class="chapter">壹 <small>01</small></span><h3 data-i18n="tacticTitle">让地形成为招式的一部分</h3><p data-i18n="tacticText">利用高低差、水雾和阴影；读懂敌方意图，再决定走位、控制与出手顺序。每位角色单独结束行动，队伍配合由你掌握。</p><div class="tags"><span>AP</span><span>SP</span><span data-i18n="momentum">蓄势</span></div></article>
+        <article><span class="chapter">贰 <small>02</small></span><h3 data-i18n="buildTitle">在途中长成自己的流派</h3><p data-i18n="buildText">领悟角色专属技能，重复获得时提升等级。商店重随、旧物搭配与事件抉择，让同一队伍也能有不同打法。</p><div class="tags"><span data-i18n="skillsTag">技能成长</span><span data-i18n="relicsTag">旧物协同</span></div></article>
+        <article><span class="chapter">叁 <small>03</small></span><h3 data-i18n="ascentTitle">走出属于你们的登阙路线</h3><p data-i18n="ascentText">穿过普通战、精英、商店、事件与营火，迎接顶层决战。四档试炼：踏岚、破障、逆潮、登阙。</p><div class="tags"><span data-i18n="routeTag">分支路线</span><span data-i18n="bossTag">独立精英与 BOSS</span></div></article>
+      </div>
+    </section>
+    <section class="companions section" id="companions" aria-labelledby="companions-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow" data-i18n="companionsKicker">02 / 同行者</p><h2 id="companions-title" data-i18n="companionsTitle">五种锋芒，三人同路。</h2></div><p data-i18n="companionsIntro">每个人都有自己的招式与职责。<br>选择一位同行者，认识队伍的不同可能。</p></div>
+        <div class="character-grid" role="tablist" aria-label="选择同行者" data-i18n-aria="selectCompanion">
+          <button class="character active" id="tab-sixuan" role="tab" aria-controls="character-detail" aria-selected="true" data-hero="sixuan"><img src="assets/sixuan.webp" alt="" width="600" height="800" loading="lazy"><span class="character-index">01</span><span class="character-name"><strong data-i18n="nameSixuan">司玄</strong><small data-i18n="roleSixuan">控制 · 护佑</small></span></button>
+          <button class="character" id="tab-lingfeng" role="tab" aria-controls="character-detail" aria-selected="false" tabindex="-1" data-hero="lingfeng"><img src="assets/lingfeng.webp" alt="" width="600" height="800" loading="lazy"><span class="character-index">02</span><span class="character-name"><strong data-i18n="nameLingfeng">凌风</strong><small data-i18n="roleLingfeng">近战 · 破阵</small></span></button>
+          <button class="character" id="tab-cangling" role="tab" aria-controls="character-detail" aria-selected="false" tabindex="-1" data-hero="cangling"><img src="assets/cangling.webp" alt="" width="600" height="800" loading="lazy"><span class="character-index">03</span><span class="character-name"><strong data-i18n="nameCangling">沧泠</strong><small data-i18n="roleCangling">治疗 · 潮汐</small></span></button>
+          <button class="character" id="tab-yanzhuying" role="tab" aria-controls="character-detail" aria-selected="false" tabindex="-1" data-hero="yanzhuying"><img src="assets/yanzhuying.webp" alt="" width="600" height="800" loading="lazy"><span class="character-index">04</span><span class="character-name"><strong data-i18n="nameYanzhuying">晏烛影</strong><small data-i18n="roleYanzhuying">借影 · 奇袭</small></span></button>
+          <button class="character" id="tab-shangshuo" role="tab" aria-controls="character-detail" aria-selected="false" tabindex="-1" data-hero="shangshuo"><img src="assets/shangshuo.webp" alt="" width="600" height="800" loading="lazy"><span class="character-index">05</span><span class="character-name"><strong data-i18n="nameShangshuo">商朔</strong><small data-i18n="roleShangshuo">守护 · 反击</small></span></button>
+        </div>
+        <div class="character-detail" id="character-detail" role="tabpanel" aria-labelledby="tab-sixuan" tabindex="0"><div class="character-title"><span id="detail-number">01</span><h3 id="detail-title">天衡玉律</h3></div><p id="detail-description">以衡域约束敌人，以玉律护契守护同伴。控制、护盾与裁断相互衔接，为队伍创造从容出手的机会。</p><div class="ultimate"><small data-i18n="ultimateLabel">角色奥义</small><strong id="detail-ultimate">天衡裁云</strong><span id="detail-ultimate-description">范围定身 · 全队护盾</span></div></div>
+      </div>
+    </section>
+    <section class="beta section wrap" id="beta" aria-labelledby="beta-title">
+      <div class="beta-intro"><p class="eyebrow" data-i18n="betaKicker">03 / FIRST BETA</p><h2 id="beta-title" data-i18n="betaTitle">旅程的第一站，<br>也向创作者敞开。</h2><p data-i18n="betaIntro">这是《烬海天阙》的首个开源 Beta。我们希望与你一起打磨战术手感、构筑深度，以及这个世界的每一处细节。</p><a class="text-link" href="https://github.com/chenzhiyong1994/dicebound/issues"><span data-i18n="feedback">反馈问题与建议</span><span aria-hidden="true">↗</span></a></div>
+      <div class="beta-notes"><div class="beta-version"><span>Beta 1</span><strong>0.22.4</strong></div><dl><div><dt data-i18n="platformLabel">当前平台</dt><dd data-i18n="platformValue">Windows · 单人 · 简体中文游戏界面</dd></div><div><dt data-i18n="engineLabel">开发环境</dt><dd>Unity 6.3 LTS · URP · C#</dd></div><div><dt data-i18n="statusLabel">Beta 边界</dt><dd data-i18n="statusValue">版本仍在打磨；平衡性、界面与动效可能调整。完整回归及广泛设备兼容验证尚未完成。</dd></div><div><dt data-i18n="licenseLabel">开放与许可</dt><dd data-i18n="licenseValue">代码、素材及第三方内容的使用范围，请查阅仓库中的许可与来源说明。</dd></div></dl></div>
+    </section>
+    <section class="closing wrap"><div><p class="eyebrow">OPEN SOURCE / OPEN JOURNEY</p><h2 data-i18n="closingTitle">下一步，与你同行。</h2></div><div class="closing-actions"><a class="button primary" href="https://github.com/chenzhiyong1994/dicebound"><span data-i18n="visitGithub">前往 GitHub</span><span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/chenzhiyong1994/dicebound#build" data-i18n="readBuild">阅读构建指南 →</a></div></section>
+  </main>
+  <footer class="wrap"><span>烬海天阙 <span class="footer-dot">·</span> DICEBOUND</span><span data-i18n="footerNote">以同行为始，以登阙为约。</span><a href="assets/sources.json" data-i18n="assetSources">页面素材来源</a></footer>
+</body>
+</html>

@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "provider": "Poly Haven",
+  "retrieved": "2026-09-22",
+  "liveApiInGame": false,
+  "assets": [
+    {
+      "id": "wooden_lantern_01",
+      "source": "https://polyhaven.com/a/wooden_lantern_01",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "1k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_lantern_01/model.fbx",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/wooden_lantern_01/wooden_lantern_01_1k.fbx",
+          "size": 300524,
+          "sha256": "e5999ce0f88c01289604cb14852e7f4875110f87728a9dbdf6241df76284a9f5"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_lantern_01/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_lantern_01/wooden_lantern_01_diff_1k.jpg",
+          "size": 712250,
+          "sha256": "5a346e7e3335e9502eb4e25178d16ba29ae49786b75853d7bd36b386edf7a30d"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_lantern_01/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_lantern_01/wooden_lantern_01_nor_gl_1k.jpg",
+          "size": 747945,
+          "sha256": "06a7d3bb7342b5aa96d8c22d46883153df8948b59cab26e19f0e91ba82dba9ef"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_lantern_01/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_lantern_01/wooden_lantern_01_rough_1k.jpg",
+          "size": 670966,
+          "sha256": "3481b26e9c059c8487ce1a9e4aed7ac5c51c7862137c80bf7cae42219bf55d2b"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_lantern_01/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_lantern_01/wooden_lantern_01_ao_1k.jpg",
+          "size": 404114,
+          "sha256": "94802c3e394990823d8953021946524a628d96e55d37b0fd3f7da2f102c40fd5"
+        }
+      ]
+    },
+    {
+      "id": "rock_moss_set_01",
+      "source": "https://polyhaven.com/a/rock_moss_set_01",
+      "authors": {
+        "Kless Gyzen": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "1k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rock_moss_set_01/model.fbx",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/rock_moss_set_01/rock_moss_set_01_1k.fbx",
+          "size": 2652988,
+          "sha256": "8fa2a2666ecc4591f59e1d45db05d86857115b55492c8522917f3de5e650e6f9"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rock_moss_set_01/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_diff_1k.jpg",
+          "size": 168099,
+          "sha256": "40cea65d8aa4ee73a93b04af19963834d061eee9779c3fc2c1cba76eef812ccc"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rock_moss_set_01/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_nor_gl_1k.jpg",
+          "size": 209975,
+          "sha256": "eb4aad3f207f1dc5b624d74ae240372171626a66912bd71adf7bd3e518181d6e"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rock_moss_set_01/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_rough_1k.jpg",
+          "size": 82624,
+          "sha256": "4d6ec46623abd8e2cdb855f59c7ce31873ad61b36b60e4de579e9e776a497c6b"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rock_moss_set_01/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_ao_1k.jpg",
+          "size": 112517,
+          "sha256": "7cabdcd42d1239ec5e9f2557fb5859d05141b65263ead1ee6a881a173acf87f7"
+        }
+      ]
+    },
+    {
+      "id": "large_castle_door",
+      "source": "https://polyhaven.com/a/large_castle_door",
+      "authors": {
+        "Tina": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "1k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_castle_door/model.fbx",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/large_castle_door/large_castle_door_1k.fbx",
+          "size": 404780,
+          "sha256": "eabf335b3dd02cb7926fe8f2f73701a9e72cca6dec44343fc7d1596a79446426"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_castle_door/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_diff_1k.jpg",
+          "size": 803253,
+          "sha256": "06b9640df9702ceee23cfd042e858ca03b8c68818a691c55d4ea2a65258db97a"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_castle_door/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_nor_gl_1k.jpg",
+          "size": 1023095,
+          "sha256": "297929524f3a2e6634543ec1c6f0278369d3649a2eba888fa3bf9caf72ab2af1"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_castle_door/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_rough_1k.jpg",
+          "size": 817286,
+          "sha256": "b4ec9283847eec159901e157fe502e2d27d8d263687803a064a3fe1897cc4e50"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_castle_door/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/large_castle_door/large_castle_door_ao_1k.jpg",
+          "size": 276144,
+          "sha256": "dc58350a5d9d14a6e4bf399f6951e7f07e96b152638011059891f6fa7f1f2e83"
+        }
+      ]
+    },
+    {
+      "id": "wooden_handle_saber",
+      "source": "https://polyhaven.com/a/wooden_handle_saber",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "1k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_handle_saber/model.fbx",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/wooden_handle_saber/wooden_handle_saber_1k.fbx",
+          "size": 148140,
+          "sha256": "9640c99d39a224760fefa65dc8ad5143fa882657071c563ee1421bb3cbb8d787"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_handle_saber/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_handle_saber/wooden_handle_saber_diff_1k.jpg",
+          "size": 467365,
+          "sha256": "cae0c923165bf6a0694b11d757fd23edf9540051a46b0190ac5fbf8863a7a07b"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_handle_saber/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_handle_saber/wooden_handle_saber_nor_gl_1k.jpg",
+          "size": 507069,
+          "sha256": "0646795086192634a25583623c1126d222898cf3879af5938d6f659242f29bf8"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_handle_saber/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_handle_saber/wooden_handle_saber_rough_1k.jpg",
+          "size": 546536,
+          "sha256": "4034609f80b50f48096e73b6012ab5e7d30e42b7954fea984e1fc42e47364329"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/wooden_handle_saber/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_handle_saber/wooden_handle_saber_ao_1k.jpg",
+          "size": 203005,
+          "sha256": "3b7d44d709ea6c77339781959a352cea8c1a7abd54fef5fefa4b746f657cd186"
+        }
+      ]
+    },
+    {
+      "id": "large_grey_tiles",
+      "source": "https://polyhaven.com/a/large_grey_tiles",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "2k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_grey_tiles/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/large_grey_tiles/large_grey_tiles_diff_2k.jpg",
+          "size": 1864784,
+          "sha256": "6ee421e93ecf3d68d4788356a9eba76e0aabab620a7055ef57af34da7898850f"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_grey_tiles/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/large_grey_tiles/large_grey_tiles_nor_gl_2k.jpg",
+          "size": 2056176,
+          "sha256": "87183caf28504115fa2001be3c7bbfbc2e1da4313a49ddab23ece6cd5286c03e"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_grey_tiles/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/large_grey_tiles/large_grey_tiles_rough_2k.jpg",
+          "size": 1596490,
+          "sha256": "a9c2cc6d8607f163797d5a41d9a2304eec18f6d29c9e31ce0c471a3646c11f09"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/large_grey_tiles/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/large_grey_tiles/large_grey_tiles_ao_2k.jpg",
+          "size": 1515083,
+          "sha256": "7afb8cb02611e1fc4d7e11530466a3774231b8a96716ab3de260ad2da0c3040c"
+        }
+      ]
+    },
+    {
+      "id": "castle_wall_slates",
+      "source": "https://polyhaven.com/a/castle_wall_slates",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "2k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/castle_wall_slates/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_diff_2k.jpg",
+          "size": 2381426,
+          "sha256": "89e1dce61cf53decf586bd123b9280365e447019ebedaf3b8e48663ab37eab30"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/castle_wall_slates/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_nor_gl_2k.jpg",
+          "size": 4054865,
+          "sha256": "ea6042cdb95576d9c2d67c7fa26e3648cca09d8d2fcaf4dfe7d6052a970d7b28"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/castle_wall_slates/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_rough_2k.jpg",
+          "size": 2005253,
+          "sha256": "84fe81f77d25e4dc37be41174b0a1fa85e8aece244eabe54ed48c542cb5bed08"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/castle_wall_slates/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_ao_2k.jpg",
+          "size": 1653941,
+          "sha256": "dee95cf4b7f88c7a214e3a55163553c7552d804cdb3d11ec3ebc1079a71c6106"
+        }
+      ]
+    },
+    {
+      "id": "rusty_metal_04",
+      "source": "https://polyhaven.com/a/rusty_metal_04",
+      "authors": {
+        "Amal Kumar": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "1k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rusty_metal_04/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_04/rusty_metal_04_diff_1k.jpg",
+          "size": 938338,
+          "sha256": "37c6757c5b6b2229f61423c7e5013f970e4dafb48070d35f53ed6d08958ed288"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rusty_metal_04/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_04/rusty_metal_04_nor_gl_1k.jpg",
+          "size": 896980,
+          "sha256": "9c432bee334e65e73ff0b20676dd3f0efbed3f91d261a13dc03b9c8c1a4f4eec"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rusty_metal_04/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_04/rusty_metal_04_rough_1k.jpg",
+          "size": 686008,
+          "sha256": "02c2fe5dfd5f4f7a692659261b8c99e103f33fb1a4c363c3e763542fae32d4fe"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rusty_metal_04/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_04/rusty_metal_04_ao_1k.jpg",
+          "size": 346574,
+          "sha256": "af1733e6b00b89853a885a53dea36cc445f8a8b5d0364fb0da4fd11cf1006531"
+        }
+      ]
+    },
+    {
+      "id": "rough_linen",
+      "source": "https://polyhaven.com/a/rough_linen",
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "1k",
+      "changes": "URP PBR material conversion, scene placement, scale and color grading",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rough_linen/albedo.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rough_linen/rough_linen_diff_1k.jpg",
+          "size": 835801,
+          "sha256": "04897d7611d7390ddf5b2c6f7273f448dfc48341fdbd1f4f207fa30b331d7f57"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rough_linen/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rough_linen/rough_linen_nor_gl_1k.jpg",
+          "size": 916843,
+          "sha256": "e2402166d1a489f7414814e69e1836ab672aa24e30bec2d41fea356f81687e53"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rough_linen/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rough_linen/rough_linen_rough_1k.jpg",
+          "size": 1083725,
+          "sha256": "734ad6718841a6e296aacaa6e9ee2e1686eed5f62bb8d71c915c5605e162bcb4"
+        },
+        {
+          "path": "native/Dicebound/Assets/Resources/Environment/rough_linen/occlusion.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rough_linen/rough_linen_ao_1k.jpg",
+          "size": 1053808,
+          "sha256": "05076a86deb0d7e60e722f746339a2598c3449e4fc013ac4ad63edebf1f16420"
+        }
+      ]
+    }
+  ]
+}

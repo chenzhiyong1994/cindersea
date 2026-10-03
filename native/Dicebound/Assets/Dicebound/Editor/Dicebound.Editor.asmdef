@@ -1,0 +1,5 @@
+{
+  "name": "Dicebound.Editor",
+  "references": ["Dicebound.Runtime", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"]
+}

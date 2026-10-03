@@ -1,0 +1,23 @@
+Source and license evidence for the rubberduck clips in this directory
+
+Creator: rubberduck
+License: CC0 1.0 Universal
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Full legal text: LICENSE-CC0-1.0.txt
+Evidence checked: 2026-10-02
+
+80 CC0 RPG SFX
+Creator's publication: https://opengameart.org/node/86018
+Published: 2018-07-08
+The creator's page declares License(s): CC0.
+Archive: https://opengameart.org/sites/default/files/80-CC0-RPG-SFX_0.zip
+
+40 CC0 water / splash / slime SFX
+Creator's publication: https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+Published: 2018-07-29
+The creator's page declares License(s): CC0.
+Archive: https://opengameart.org/sites/default/files/water-splash-slime-sfx.zip
+
+This record is project-written provenance, not an original archive license file.
+The original archives contain audio only; their creator explicitly applied CC0 on the publication pages.
+Per-source and archive SHA-256 values and processing are recorded in manifest.json.

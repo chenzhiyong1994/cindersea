@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "icons": [
+    {
+      "id": "move",
+      "atlas": "battle-v2-skills",
+      "x": 54,
+      "y": 1118,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "strike",
+      "atlas": "battle-v2-skills",
+      "x": 314,
+      "y": 1118,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "throw",
+      "atlas": "battle-v2-skills",
+      "x": 570,
+      "y": 1118,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "brace",
+      "atlas": "battle-v2-skills",
+      "x": 832,
+      "y": 1118,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "shove",
+      "atlas": "battle-v2-skills",
+      "x": 54,
+      "y": 874,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "step",
+      "atlas": "battle-v2-skills",
+      "x": 314,
+      "y": 874,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "balance",
+      "atlas": "battle-v2-skills",
+      "x": 570,
+      "y": 874,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "moon",
+      "atlas": "battle-v2-skills",
+      "x": 832,
+      "y": 874,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "cleave",
+      "atlas": "battle-v2-skills",
+      "x": 54,
+      "y": 635,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "tide",
+      "atlas": "battle-v2-skills",
+      "x": 314,
+      "y": 635,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "anchor",
+      "atlas": "battle-v2-skills",
+      "x": 570,
+      "y": 635,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "stitch",
+      "atlas": "battle-v2-skills",
+      "x": 832,
+      "y": 635,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "line",
+      "atlas": "battle-v2-skills",
+      "x": 54,
+      "y": 389,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "mend",
+      "atlas": "battle-v2-skills",
+      "x": 314,
+      "y": 389,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "burst",
+      "atlas": "battle-v2-skills",
+      "x": 570,
+      "y": 389,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "hook",
+      "atlas": "battle-v2-skills",
+      "x": 832,
+      "y": 389,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "haste",
+      "atlas": "battle-v2-skills",
+      "x": 54,
+      "y": 145,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "ward",
+      "atlas": "battle-v2-skills",
+      "x": 314,
+      "y": 145,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "oath",
+      "atlas": "battle-v2-skills",
+      "x": 570,
+      "y": 145,
+      "width": 238,
+      "height": 238
+    },
+    {
+      "id": "endTurn",
+      "atlas": "battle-v2-skills",
+      "x": 832,
+      "y": 145,
+      "width": 238,
+      "height": 238
+    }
+  ],
+  "skins": [
+    {
+      "id": "panel",
+      "atlas": "battle-v2-skins",
+      "x": 23,
+      "y": 682,
+      "width": 597,
+      "height": 258,
+      "borderLeft": 64,
+      "borderBottom": 64,
+      "borderRight": 64,
+      "borderTop": 64
+    },
+    {
+      "id": "inset",
+      "atlas": "battle-v2-skins",
+      "x": 633,
+      "y": 682,
+      "width": 596,
+      "height": 258,
+      "borderLeft": 64,
+      "borderBottom": 64,
+      "borderRight": 64,
+      "borderTop": 64
+    },
+    {
+      "id": "button",
+      "atlas": "battle-v2-skins",
+      "x": 23,
+      "y": 356,
+      "width": 596,
+      "height": 248,
+      "borderLeft": 64,
+      "borderBottom": 64,
+      "borderRight": 64,
+      "borderTop": 64
+    },
+    {
+      "id": "selected",
+      "atlas": "battle-v2-skins",
+      "x": 633,
+      "y": 355,
+      "width": 596,
+      "height": 249,
+      "borderLeft": 64,
+      "borderBottom": 64,
+      "borderRight": 64,
+      "borderTop": 64
+    }
+  ]
+}

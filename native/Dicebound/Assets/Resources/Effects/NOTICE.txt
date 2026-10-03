@@ -1,0 +1,18 @@
+Effekseer / Pierre's Effects vol.2 — particle textures
+
+Author: Pierre (Effekseer contributor)
+License: CC0 1.0 Universal
+Official source and license grouping: https://effekseer.github.io/en/contribute.html
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Pinned repository: https://github.com/effekseer/Effekseer/tree/82b37081a302b9f9eff0bf14dc6c845fca8c3c54/Release/Sample/01_Pierre02/Texture
+
+Smoke.png, Smoke_Lighting.png, FractalNoise_1.png, Line1.png,
+Particle_Soft.png and IntensiveLine.png are unmodified source files.
+The official page lists Pierre's Effects vol.2 in its CC0 Sample Effects
+section, before the separately labelled legacy-license section.
+No files from the legacy-license collections are included.
+
+Dicebound uses the textures with its own URP renderer, layered timing,
+mesh sweeps, smoke atlas sampling, colour grading and fragment motion.
+No Effekseer runtime or native binary is included. This does not imply
+endorsement by Pierre or the Effekseer project.

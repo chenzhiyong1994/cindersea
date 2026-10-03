@@ -1,0 +1,453 @@
+{
+  "version": 1,
+  "icons": [
+    {
+      "id": "strike",
+      "atlas": "tactical-actions-atlas",
+      "x": 54,
+      "y": 867,
+      "width": 209,
+      "height": 186
+    },
+    {
+      "id": "throw",
+      "atlas": "tactical-actions-atlas",
+      "x": 340,
+      "y": 861,
+      "width": 187,
+      "height": 177
+    },
+    {
+      "id": "brace",
+      "atlas": "tactical-actions-atlas",
+      "x": 609,
+      "y": 868,
+      "width": 187,
+      "height": 169
+    },
+    {
+      "id": "shove",
+      "atlas": "tactical-actions-atlas",
+      "x": 871,
+      "y": 867,
+      "width": 201,
+      "height": 172
+    },
+    {
+      "id": "step",
+      "atlas": "tactical-actions-atlas",
+      "x": 1149,
+      "y": 866,
+      "width": 194,
+      "height": 175
+    },
+    {
+      "id": "balance",
+      "atlas": "tactical-actions-atlas",
+      "x": 61,
+      "y": 601,
+      "width": 186,
+      "height": 186
+    },
+    {
+      "id": "moon",
+      "atlas": "tactical-actions-atlas",
+      "x": 324,
+      "y": 606,
+      "width": 218,
+      "height": 178
+    },
+    {
+      "id": "cleave",
+      "atlas": "tactical-actions-atlas",
+      "x": 598,
+      "y": 598,
+      "width": 206,
+      "height": 188
+    },
+    {
+      "id": "tide",
+      "atlas": "tactical-actions-atlas",
+      "x": 877,
+      "y": 601,
+      "width": 201,
+      "height": 186
+    },
+    {
+      "id": "anchor",
+      "atlas": "tactical-actions-atlas",
+      "x": 1158,
+      "y": 596,
+      "width": 177,
+      "height": 192
+    },
+    {
+      "id": "stitch",
+      "atlas": "tactical-actions-atlas",
+      "x": 59,
+      "y": 351,
+      "width": 185,
+      "height": 174
+    },
+    {
+      "id": "line",
+      "atlas": "tactical-actions-atlas",
+      "x": 325,
+      "y": 342,
+      "width": 205,
+      "height": 178
+    },
+    {
+      "id": "mend",
+      "atlas": "tactical-actions-atlas",
+      "x": 611,
+      "y": 342,
+      "width": 182,
+      "height": 188
+    },
+    {
+      "id": "burst",
+      "atlas": "tactical-actions-atlas",
+      "x": 884,
+      "y": 338,
+      "width": 193,
+      "height": 191
+    },
+    {
+      "id": "hook",
+      "atlas": "tactical-actions-atlas",
+      "x": 1156,
+      "y": 346,
+      "width": 188,
+      "height": 186
+    },
+    {
+      "id": "haste",
+      "atlas": "tactical-actions-atlas",
+      "x": 58,
+      "y": 90,
+      "width": 191,
+      "height": 189
+    },
+    {
+      "id": "ward",
+      "atlas": "tactical-actions-atlas",
+      "x": 335,
+      "y": 87,
+      "width": 191,
+      "height": 201
+    },
+    {
+      "id": "oath",
+      "atlas": "tactical-actions-atlas",
+      "x": 601,
+      "y": 99,
+      "width": 199,
+      "height": 183
+    },
+    {
+      "id": "move",
+      "atlas": "tactical-actions-atlas",
+      "x": 875,
+      "y": 100,
+      "width": 208,
+      "height": 170
+    },
+    {
+      "id": "endTurn",
+      "atlas": "tactical-actions-atlas",
+      "x": 1159,
+      "y": 100,
+      "width": 192,
+      "height": 177
+    },
+    {
+      "id": "relic-bell",
+      "atlas": "tactical-systems-atlas",
+      "x": 30,
+      "y": 659,
+      "width": 157,
+      "height": 195
+    },
+    {
+      "id": "relic-needle",
+      "atlas": "tactical-systems-atlas",
+      "x": 239,
+      "y": 660,
+      "width": 204,
+      "height": 189
+    },
+    {
+      "id": "relic-flask",
+      "atlas": "tactical-systems-atlas",
+      "x": 474,
+      "y": 652,
+      "width": 185,
+      "height": 206
+    },
+    {
+      "id": "relic-lamp",
+      "atlas": "tactical-systems-atlas",
+      "x": 702,
+      "y": 649,
+      "width": 152,
+      "height": 211
+    },
+    {
+      "id": "relic-pearl",
+      "atlas": "tactical-systems-atlas",
+      "x": 904,
+      "y": 658,
+      "width": 184,
+      "height": 169
+    },
+    {
+      "id": "relic-seal",
+      "atlas": "tactical-systems-atlas",
+      "x": 1120,
+      "y": 660,
+      "width": 193,
+      "height": 184
+    },
+    {
+      "id": "route-battle",
+      "atlas": "tactical-systems-atlas",
+      "x": 1337,
+      "y": 655,
+      "width": 203,
+      "height": 190
+    },
+    {
+      "id": "route-elite",
+      "atlas": "tactical-systems-atlas",
+      "x": 1557,
+      "y": 661,
+      "width": 202,
+      "height": 190
+    },
+    {
+      "id": "route-event",
+      "atlas": "tactical-systems-atlas",
+      "x": 16,
+      "y": 449,
+      "width": 202,
+      "height": 172
+    },
+    {
+      "id": "route-camp",
+      "atlas": "tactical-systems-atlas",
+      "x": 226,
+      "y": 443,
+      "width": 225,
+      "height": 194
+    },
+    {
+      "id": "hp",
+      "atlas": "tactical-systems-atlas",
+      "x": 471,
+      "y": 441,
+      "width": 186,
+      "height": 188
+    },
+    {
+      "id": "ap",
+      "atlas": "tactical-systems-atlas",
+      "x": 681,
+      "y": 437,
+      "width": 193,
+      "height": 198
+    },
+    {
+      "id": "sp",
+      "atlas": "tactical-systems-atlas",
+      "x": 924,
+      "y": 436,
+      "width": 143,
+      "height": 200
+    },
+    {
+      "id": "charge",
+      "atlas": "tactical-systems-atlas",
+      "x": 1116,
+      "y": 430,
+      "width": 187,
+      "height": 207
+    },
+    {
+      "id": "block",
+      "atlas": "tactical-systems-atlas",
+      "x": 1345,
+      "y": 436,
+      "width": 184,
+      "height": 202
+    },
+    {
+      "id": "immobilized",
+      "atlas": "tactical-systems-atlas",
+      "x": 1555,
+      "y": 443,
+      "width": 203,
+      "height": 177
+    },
+    {
+      "id": "highground",
+      "atlas": "tactical-systems-atlas",
+      "x": 15,
+      "y": 228,
+      "width": 201,
+      "height": 202
+    },
+    {
+      "id": "cover",
+      "atlas": "tactical-systems-atlas",
+      "x": 231,
+      "y": 238,
+      "width": 214,
+      "height": 181
+    },
+    {
+      "id": "mist",
+      "atlas": "tactical-systems-atlas",
+      "x": 464,
+      "y": 228,
+      "width": 193,
+      "height": 200
+    },
+    {
+      "id": "shadow",
+      "atlas": "tactical-systems-atlas",
+      "x": 671,
+      "y": 228,
+      "width": 202,
+      "height": 202
+    },
+    {
+      "id": "settings",
+      "atlas": "tactical-systems-atlas",
+      "x": 900,
+      "y": 231,
+      "width": 193,
+      "height": 193
+    },
+    {
+      "id": "help",
+      "atlas": "tactical-systems-atlas",
+      "x": 1100,
+      "y": 237,
+      "width": 232,
+      "height": 174
+    },
+    {
+      "id": "chronicle",
+      "atlas": "tactical-systems-atlas",
+      "x": 1333,
+      "y": 228,
+      "width": 208,
+      "height": 194
+    },
+    {
+      "id": "party",
+      "atlas": "tactical-systems-atlas",
+      "x": 1547,
+      "y": 228,
+      "width": 219,
+      "height": 196
+    },
+    {
+      "id": "confirm",
+      "atlas": "tactical-systems-atlas",
+      "x": 18,
+      "y": 32,
+      "width": 206,
+      "height": 184
+    },
+    {
+      "id": "cancel",
+      "atlas": "tactical-systems-atlas",
+      "x": 244,
+      "y": 32,
+      "width": 191,
+      "height": 181
+    },
+    {
+      "id": "back",
+      "atlas": "tactical-systems-atlas",
+      "x": 448,
+      "y": 43,
+      "width": 212,
+      "height": 158
+    },
+    {
+      "id": "save",
+      "atlas": "tactical-systems-atlas",
+      "x": 683,
+      "y": 26,
+      "width": 195,
+      "height": 190
+    },
+    {
+      "id": "import",
+      "atlas": "tactical-systems-atlas",
+      "x": 895,
+      "y": 35,
+      "width": 199,
+      "height": 182
+    },
+    {
+      "id": "export",
+      "atlas": "tactical-systems-atlas",
+      "x": 1110,
+      "y": 34,
+      "width": 203,
+      "height": 188
+    },
+    {
+      "id": "victory",
+      "atlas": "tactical-systems-atlas",
+      "x": 1330,
+      "y": 23,
+      "width": 211,
+      "height": 205
+    },
+    {
+      "id": "defeat",
+      "atlas": "tactical-systems-atlas",
+      "x": 1545,
+      "y": 26,
+      "width": 207,
+      "height": 197
+    },
+    {
+      "id": "wall",
+      "atlas": "tactical-terrain-atlas",
+      "x": 31,
+      "y": 663,
+      "width": 577,
+      "height": 539
+    },
+    {
+      "id": "gap",
+      "atlas": "tactical-terrain-atlas",
+      "x": 668,
+      "y": 663,
+      "width": 569,
+      "height": 487
+    },
+    {
+      "id": "rubble",
+      "atlas": "tactical-terrain-atlas",
+      "x": 25,
+      "y": 49,
+      "width": 586,
+      "height": 523
+    },
+    {
+      "id": "pipe",
+      "atlas": "tactical-terrain-atlas",
+      "x": 667,
+      "y": 52,
+      "width": 560,
+      "height": 544
+    }
+  ]
+}

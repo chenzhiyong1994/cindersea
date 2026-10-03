@@ -1,0 +1,6 @@
+{
+  "name": "Dicebound.Persistence",
+  "rootNamespace": "Dicebound.Persistence",
+  "references": ["Dicebound.Core", "Unity.Newtonsoft.Json"],
+  "noEngineReferences": true
+}

@@ -1,0 +1,124 @@
+{
+  "tool": "Built-in image_gen",
+  "records": [
+    {
+      "id": "sixuan",
+      "request": {
+        "prompt": "Use case: illustration-story. Asset: premium illustrated 2D narrative card game character painting, vertical 3:4. A single original Chinese occult fantasy adult character as an exceptionally refined copperplate etching and opaque gouache on warm ivory paper. Fine expressive ink outlines, delicate face, crosshatched silks, flat layered jewel-toned ink shapes, vintage illustrated storybook print. Similar visual vocabulary to richly illustrated narrative card games, not a 3D render, no game UI. Knee-up, character fills 90% of frame, full head and hands inside, little negative space, poised three-quarter portrait. Background a restrained pale circular copper imprint and sparse ink environmental silhouettes, no graphic frame, no writing, no watermark. Match SECOND reference's painterly linework, paper texture and portrait composition. FIRST reference defines only character identity, outfit and weapon. One character only, never copy the reference triptych.\nSi Xuan, female, mature apparent age25, composed supreme adjudicator. Warm ivory complexion, violet eyes with fine silver outer ring. Silver-white long hair to waist, restrained high bun with one old silver pin and red cord, exactly two slim braids falling to chest. Deep purple crossed-collar inner robe, black silver structured waist belt, broad-sleeved silver-grey outer ceremonial robe, subtle cloud hems, red responsibility beads on chest match identity reference. Silk rendered as exquisite etched shaded folds not chrome armor. Right hand holds a SINGLE pale blue crystalline straight sword low beside her body; clear old-silver pierced guard, violet wrapped handle, hand behind guard. Blade mostly descends out bottom frame, no duplicate blade. Left hand gently gathers sleeve at waist. Quiet strong humane gaze, lowered weapon. No crown, no sexualization, no youthful doll face. Palette silver grey, charcoal violet, restrained red accents.",
+        "referenced_image_paths": [
+          "战斗三视图.png",
+          "exec-fbd4aeae-011b-41de-8a15-71963c969671.png"
+        ]
+      },
+      "category": "Heroes",
+      "outputPath": "Heroes/sixuan.png",
+      "sourcePath": "exec-34330d71-c66a-4e76-9cb6-3ebf09a80285.png",
+      "sourceSha256": "b9ceea7ad1af0fba65fe2432d936ff6bda4dcedd12ca1ef638f8c6a4f8cf9681",
+      "sha256": "b9ceea7ad1af0fba65fe2432d936ff6bda4dcedd12ca1ef638f8c6a4f8cf9681",
+      "bytes": 3439744,
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "yanzhuying",
+      "request": {
+        "prompt": "Use case: illustration-story. Asset: premium illustrated 2D narrative card game character painting, vertical 3:4. A single original Chinese occult fantasy adult character as an exceptionally refined copperplate etching and opaque gouache on warm ivory paper. Fine expressive ink outlines, delicate face, crosshatched silks, flat layered jewel-toned ink shapes, vintage illustrated storybook print. Similar visual vocabulary to richly illustrated narrative card games, not a 3D render, no game UI. Knee-up, character fills 90% of frame, full head and hands inside, little negative space, poised three-quarter portrait. Background a restrained pale circular copper imprint and sparse ink environmental silhouettes, no graphic frame, no writing, no watermark. Match SECOND reference's painterly linework, paper texture and portrait composition. FIRST reference defines only character identity, outfit and weapon. One character only, never copy the reference triptych.\nYan Zhuying, female, mature apparent age31, dangerously intimate elegant collector of age and memory. Refined long heart-shaped adult face, porcelain skin with life, dark red eyes, wine-red lips, jet black chin-to-shoulder blunt bob with short neat bangs, outward tipped sides. ALL hair solid black: no white streak, no ponytail, no bun. Exactly one dark-red crescent-drop earring below her RIGHT ear. Antique silver thorn crescent choker. Opaque fitted black lacquer-silk corset, restrained bare collarbones, narrow straps, layered long black petal dress, burgundy shorts underneath any walking slit, black boots not necessarily visible. ONE fixed sheer black veil panel from LEFT shoulder to right-back waist, never tentacles or ribbons. Right hand holds exactly ONE long black-silver needle sword with slender crescent guard, leather handle, low to side, fingers behind guard, tip leaves bottom frame. Only empty hard scabbard at her left-back waist. No ledger on person, no chains, no duplicated swords. Calm knowing half smile, other hand relaxed near waist. Background sparse curved ink moon and geometric old-city roof lines. Sophisticated costume not explicit, no nudity.",
+        "referenced_image_paths": [
+          "战斗三视图.png",
+          "exec-fbd4aeae-011b-41de-8a15-71963c969671.png"
+        ]
+      },
+      "correction": {
+        "prompt": "Use case: precise-object-edit. Correct exactly ONE costume/weapon detail in this existing game character portrait, preserving all other pixels/identity/style/composition as closely as possible: the needle sword is already drawn and correctly held low in her right hand (viewer LEFT). Therefore the object visible at her left-back waist (viewer RIGHT, next to her elbow) MUST be only a hollow empty black scabbard mouth. REMOVE the extra sword handle/pommel protruding upward there. Replace the short cylindrical handle protrusion with the clearly visible hollow oval open top of the empty hard black sheath and two small belt mounts. Do not change the sword in her hand, her face, the beautiful existing black bob, veil, dress, pose, background or palette. One sword total, one empty sheath, no spare hilt at waist. No text, no border.",
+        "referenced_image_paths": [
+          "exec-9fe15090-05b4-4126-9c59-a9376f68f3f0.png"
+        ]
+      },
+      "category": "Heroes",
+      "outputPath": "Heroes/yanzhuying.png",
+      "sourcePath": "exec-967a7643-3fad-4a95-a0ac-5428ceda1313.png",
+      "sourceSha256": "c90e7564de83991b9aab12855fc297115d1146602085d92aed74ad58c38061e5",
+      "sha256": "c90e7564de83991b9aab12855fc297115d1146602085d92aed74ad58c38061e5",
+      "bytes": 2855260,
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "lingfeng",
+      "request": "Use case: stylized-concept. Create ONE original finished 3:4 vertical knee-up character illustration for Chinese dark-fantasy card game Jinhai Tianque. Reference image is IDENTITY AND CLOTHING only. Redraw with exquisite pen-and-ink etched lines, deliberate crosshatching in hair and folds, restrained flat gouache, antique Chinese illustrated folio with decorative-print elegance. LARGE expressive human face near top 15%, coherent human anatomy, elegant hands, crop mid-thigh, not a character sheet. Controlled ivory parchment around face and flat dark indigo lower silhouette, accents of oxidized copper and vermilion. Fine ornaments come from this character's profession, a subtle disc behind head, no photoreal skin, no 3D render, no glossy airbrush, no text, no card border, no watermarks. Ling Feng, 24 Chinese adult male, handsome vigorous warm brown eyes and wheat skin, black long slightly wavy hair half tied in high ponytail, NARROW red cloth forehead band. Black crossed-collar action robe, dark purple inner collar, aged silver shoulder guard, black leather bracers. One complete subtle mountain-flame insignia. Holds ONE black steel gently curved single-edged saber, golden-copper guard red-black grip; hand stays below guard, empty scabbard at waist. Blade held down at side, no duplicate weapon. Three-quarter facing viewer RIGHT. Red ember wisps weave against ivory-paper background but face quiet and clear.",
+      "category": "Heroes",
+      "outputPath": "Heroes/lingfeng.png",
+      "sourcePath": "exec-6db5d8ca-39fc-4c68-9bbb-458295286d65.png",
+      "sourceSha256": "b8c51541933e684197972a5d469992b823f1e384b8ecb2b772fe99fb96c8f549",
+      "sha256": "b8c51541933e684197972a5d469992b823f1e384b8ecb2b772fe99fb96c8f549",
+      "bytes": 3179052,
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "id": "cangling",
+      "request": "Use case: stylized-concept. Create ONE original finished 3:4 vertical knee-up character illustration for Chinese dark-fantasy card game Jinhai Tianque. Reference image is IDENTITY AND CLOTHING only. Redraw with exquisite pen-and-ink etched lines, deliberate crosshatching in hair and folds, restrained flat gouache, antique Chinese illustrated folio with decorative-print elegance. LARGE expressive human face near top 15%, coherent human anatomy, elegant hands, crop mid-thigh, not a character sheet. Controlled ivory parchment around face and flat dark indigo lower silhouette, accents of oxidized copper and vermilion. Fine ornaments come from this character's profession, a subtle disc behind head, no photoreal skin, no 3D render, no glossy airbrush, no text, no card border, no watermarks. Cang Ling, adult Chinese male tidal prince, elegant mature face, cool pale wheat skin, sea blue eyes with pale-gold iris ring, long blue-black hair silver-cyan at ends tied low with coral-bone pin. Navy narrow sleeves, asymmetrical sea-mist gray cape, dark teal robe. ONE ivory coral-bone shoulder piece on HIS RIGHT shoulder. A single silver chain on LEFT chest carries EXACTLY FOUR large pearl sound beads (not necklace everywhere). Holds ONE long ivory bone flute assembled of three segments in both hands below chest; THREE empty storage loops at right rear waist. No fins/fish ears/gills, only subtle pearly sheen behind ears. Facing viewer RIGHT three-quarter, water-line etching and mist in quiet ivory background.",
+      "category": "Heroes",
+      "outputPath": "Heroes/cangling.png",
+      "sourcePath": "exec-fbd4aeae-011b-41de-8a15-71963c969671.png",
+      "sourceSha256": "853252f1a0a8bc55e5a7c977e45c5a7a5b37aa432677c61fdc8f09e3df87914e",
+      "sha256": "853252f1a0a8bc55e5a7c977e45c5a7a5b37aa432677c61fdc8f09e3df87914e",
+      "bytes": 3452511,
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "tool": "Built-in image_gen",
+      "id": "shangshuo",
+      "sourcePath": "exec-1df74224-8d9a-4dd6-9e7f-29ed807571ce.png",
+      "sourceSha256": "538a2e86bebdc06d6e38033708f17d747a672a7f910819cbf4701a62659cbba7",
+      "outputPath": "Heroes/shangshuo.png",
+      "sha256": "538a2e86bebdc06d6e38033708f17d747a672a7f910819cbf4701a62659cbba7",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3570263,
+      "category": "Heroes",
+      "request": {
+        "prompt": "为原创中国幻想游戏《烬海天阙》绘制一张精致的商朔半身人物画。画面严格为3:4竖幅，1152×1536或1086×1448。第一张参考仅用于保留人物身份与装备；第二张参考用于统一绘画风格与构图。温暖象牙色旧纸、精细钢笔蚀刻线描、交叉排线、克制不透明水粉、旧铜圆形印影与少量墨蓝山水轮廓。面容和双手细腻自然，服饰纹样成熟精工，保持第二张参考的传统绘本质感。\n商朔为32岁成年男性，宽肩结实、小麦肤色、琥珀金瞳、成熟锋利的眉眼，可靠克制。黑色长发半束高马尾，人物自身右鬓一束银白（画面左侧），黑发仍为主体。石墨黑交领、深靛行动衣、哑银短肩披在自身左肩（画面右侧）、暗铜腰甲、胸前红绳、赭金云纹与圆形衡印。与第一参考的人脸、头发、发绳、肩披、饰品和衣服身份一致。\n腰部以上的近景构图，人物占画幅90%左右，完整头发在画面内，面部清楚且大，肩膀和双手饱满地占据画面，中下部展示腰带和装具，不画腿脚。三分之四侧身，朝画面右侧。持一柄与参考相同的定疆槊，黑银长柄斜过前景，单个蓝白纹饰槊头与旧铜限位环可见，双手在环后握长柄，远离槊头。长柄允许自然延伸出边框，人物不能为了容纳整根长柄而缩小。不再携带折叠短杖。腰侧恰好两只六槽界钉匣，只出现总计十二枚界钉。背景清淡的暖纸铜印与墨山，画面无文字、无标记、无卡框、无其他人物。",
+        "referenced_image_paths": [
+          "shangshuo.png",
+          "lingfeng.png"
+        ],
+        "transparent_background": false
+      },
+      "validation": {
+        "aspectRatio": "3:4",
+        "copy": "Original generated PNG bytes copied unchanged",
+        "visual": "Waist-up mature portrait; identity costume/weapon retained; warm ivory paper etching/gouache style matched to existing Paper heroes"
+      }
+    },
+    {
+      "tool": "Built-in image_gen",
+      "id": "ruanzhuo",
+      "sourcePath": "exec-d12fa94b-7748-4267-a392-2f8428401ea1.png",
+      "sourceSha256": "e1b83d37ec35007dff2f21a85104d466d5b7cc401060cae2a9f17ff24ba1b171",
+      "outputPath": "Heroes/ruanzhuo.png",
+      "sha256": "e1b83d37ec35007dff2f21a85104d466d5b7cc401060cae2a9f17ff24ba1b171",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3372655,
+      "category": "Heroes",
+      "request": {
+        "prompt": "为原创中国幻想游戏《烬海天阙》绘制一张精致的阮灼半身人物画。画面严格为3:4竖幅，1152×1536或1086×1448。第一张参考用于人物身份和装备，第二、第三张参考用于统一这套暖纸细绘的画风与近景人物比例。温暖象牙色旧纸、精细钢笔蚀刻线描、交叉排线、克制不透明水粉、旧铜圆形印影与少量墨蓝环境轮廓。成熟、精致且有生活气息的传统幻想绘本人物，细腻自然的面容与手部，耐磨衣料与拉丝铜的线描纹理，避免现代照相或3D渲染效果。\n阮灼为27岁成年女性，暖麦肤色、深褐近黑瞳、自然较浓眉、下颌长度的利落短黑发，后颈一束细长编发用橙红线缠住，人物自身左眉尾有细小旧烫伤。保留第一张参考的明确身份与服装：烟灰短款立领工装外套，深靛交领内衣，右肩铜色隔热护片（画面左侧），橙红细缝线，黑色皮革工具带；衣领内衬只隐约露出少量旧工牌边缘，不额外创造首饰。她有真实劳动者的力量与明艳利落的气质，神情专注、温暖但有主见。\n构图：腰部以上的近景肖像，人物占画幅约90%，头顶留少量呼吸边距，脸清楚且大，肩膀、双手、工具带都在画面内；不画腿脚。三分之四侧身朝画面右侧。身前双手握着一把铜黑色缝夜梭，工具前端是闭合圆形导流钩，绝不是开口镰刀或刀刃。左后腰（画面右侧腰旁）恰好上下两个固定线轮，每轮各自释放一条清楚的橙红梦线，共两条独立的线；每线从自己的线轮接到梭具各自的独立导孔，彼此不合并、不分叉、不回接身体。展示工具与双手但不要夸大工具遮住脸，不添加第二把梭具或额外线轮。左前腰三枚铜热阀楔在三槽套中，右腰仅留空挂扣。背景为暖纸上的旧铜印、疏淡墨色檐廊与铜管轮廓，人物比背景清楚。无文字、无标注、无卡框、无水印、无其他人物。",
+        "referenced_image_paths": [
+          "ruanzhuo.png",
+          "sixuan.png",
+          "exec-1df74224-8d9a-4dd6-9e7f-29ed807571ce.png"
+        ],
+        "transparent_background": false
+      },
+      "validation": {
+        "aspectRatio": "3:4",
+        "copy": "Original generated PNG bytes copied unchanged",
+        "visual": "Waist-up mature portrait; identity costume/weapon retained; warm ivory paper etching/gouache style matched to existing Paper heroes"
+      }
+    }
+  ],
+  "status": "complete",
+  "publicationNote": "Public snapshot: absolute source and reference paths have been reduced to original filenames. Full prompts, output paths, dimensions, and image hashes are unchanged. / 公开版仅去除来源及参考文件的本机目录前缀，完整提示词、输出路径、尺寸与图像哈希保持不变。"
+}

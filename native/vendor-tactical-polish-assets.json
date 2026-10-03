@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "provider": "Poly Haven / Dicebound derived data",
+  "retrieved": "2026-10-01",
+  "liveApiInGame": false,
+  "assets": [
+    {
+      "id": "studio_small_09",
+      "source": "https://polyhaven.com/a/studio_small_09",
+      "authors": {
+        "Sergej Majboroda": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "resolution": "1k",
+      "changes": "Original HDR bytes; Unity Specular convolved 256-face custom reflection cubemap, BC6H, no runtime capture",
+      "files": [
+        {
+          "path": "native/Dicebound/Assets/Resources/Tactics/Environment/studio_small_09_1k.hdr",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_09_1k.hdr",
+          "size": 1615248,
+          "sha256": "e7cfda5f4e98e623db12b8bfd0184e048488e4855d9c83e2751fb44a32e80c45",
+          "sourceMd5": "d5d7eb9d26d341d6aa4d11c1a54fd97c"
+        }
+      ]
+    }
+  ],
+  "reusedPbr": [
+    {
+      "id": "large_grey_tiles",
+      "source": "https://polyhaven.com/a/large_grey_tiles",
+      "license": "CC0-1.0",
+      "normalPath": "native/Dicebound/Assets/Resources/Environment/large_grey_tiles/normal.jpg",
+      "normalSha256": "87183caf28504115fa2001be3c7bbfbc2e1da4313a49ddab23ece6cd5286c03e",
+      "roughnessPath": "native/Dicebound/Assets/Resources/Environment/large_grey_tiles/roughness.jpg",
+      "roughnessSha256": "a9c2cc6d8607f163797d5a41d9a2304eec18f6d29c9e31ce0c471a3646c11f09",
+      "derivedMaskPath": "native/Dicebound/Assets/Resources/Tactics/Environment/Polish/stone-glaze.png",
+      "derivedMaskSha256": "2aa706d593ec6cdc36e45e26d9f79ff8b58a7a4c13040fb14526ca387e07fd29",
+      "conversion": {
+        "width": 256,
+        "height": 256,
+        "resize": "Lanczos",
+        "channels": {
+          "R": "constant metallic 0",
+          "G": 0,
+          "B": 0,
+          "A": "1 - (0.15 + sourceRoughness * 0.22)"
+        },
+        "colorSpace": "linear"
+      }
+    },
+    {
+      "id": "rusty_metal_04",
+      "source": "https://polyhaven.com/a/rusty_metal_04",
+      "license": "CC0-1.0",
+      "normalStrength": 0.035,
+      "smoothnessMultiplier": 0.75,
+      "normalPath": "native/Dicebound/Assets/Resources/Environment/rusty_metal_04/normal.jpg",
+      "normalSha256": "9c432bee334e65e73ff0b20676dd3f0efbed3f91d261a13dc03b9c8c1a4f4eec",
+      "roughnessPath": "native/Dicebound/Assets/Resources/Environment/rusty_metal_04/roughness.jpg",
+      "roughnessSha256": "02c2fe5dfd5f4f7a692659261b8c99e103f33fb1a4c363c3e763542fae32d4fe",
+      "derivedMaskPath": "native/Dicebound/Assets/Resources/Tactics/Environment/Polish/bronze-polish.png",
+      "derivedMaskSha256": "ab24d509e7a85916e06f7beb4af24c88b4c2bec8ce0311ff72f76ae45ccd2720",
+      "conversion": {
+        "width": 256,
+        "height": 256,
+        "resize": "Lanczos",
+        "channels": {
+          "R": "constant metallic 0.96",
+          "G": 0,
+          "B": 0,
+          "A": "1 - (0.16 + sourceRoughness * 0.24)"
+        },
+        "colorSpace": "linear"
+      }
+    },
+    {
+      "id": "wooden_handle_saber",
+      "source": "https://polyhaven.com/a/wooden_handle_saber",
+      "license": "CC0-1.0",
+      "use": "Restrained normal and roughness-derived mask only. Whole-saber albedo atlas is not sampled; continuous warm wood albedo is generated in TacticalEnvironment.",
+      "normalStrength": 0.06,
+      "smoothnessMultiplier": 0.60,
+      "normalPath": "native/Dicebound/Assets/Resources/Environment/wooden_handle_saber/normal.jpg",
+      "normalSha256": "0646795086192634a25583623c1126d222898cf3879af5938d6f659242f29bf8",
+      "roughnessPath": "native/Dicebound/Assets/Resources/Environment/wooden_handle_saber/roughness.jpg",
+      "roughnessSha256": "4034609f80b50f48096e73b6012ab5e7d30e42b7954fea984e1fc42e47364329",
+      "derivedMaskPath": "native/Dicebound/Assets/Resources/Tactics/Environment/Polish/wood-oil.png",
+      "derivedMaskSha256": "4c40fbbd012f10190631aeb3dc00834e66f19d59da8db26e01f50300ba642670",
+      "conversion": {
+        "width": 256,
+        "height": 256,
+        "resize": "Lanczos",
+        "channels": {
+          "R": "constant metallic 0",
+          "G": 0,
+          "B": 0,
+          "A": "1 - (0.43 + sourceRoughness * 0.26)"
+        },
+        "colorSpace": "linear"
+      }
+    },
+    {
+      "id": "castle_wall_slates",
+      "source": "https://polyhaven.com/a/castle_wall_slates",
+      "license": "CC0-1.0",
+      "normalPath": "native/Dicebound/Assets/Resources/Environment/castle_wall_slates/normal.jpg",
+      "normalSha256": "ea6042cdb95576d9c2d67c7fa26e3648cca09d8d2fcaf4dfe7d6052a970d7b28"
+    }
+  ],
+  "materialModel": "URP Lit normal + packed metallic/smoothness + convolved studio HDRI; Complex Lit clear coat for glaze/jade with clearCoatSmoothness 0.78. Procedural continuous warm wood albedo; no whole-saber albedo atlas. Linear cyan backdrop receives light and shadows with specular and environment reflections disabled. Existing originals unchanged."
+}

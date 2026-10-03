@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "origin": "top-left",
+  "pixelsPerUnit": 149.59183673469386,
+  "frames": [
+    {
+      "x": 22,
+      "y": 18,
+      "width": 267,
+      "height": 367,
+      "pivotX": 0.6479400749063671,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        22750
+      ]
+    },
+    {
+      "x": 333,
+      "y": 19,
+      "width": 269,
+      "height": 366,
+      "pivotX": 0.6394052044609665,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        24312
+      ]
+    },
+    {
+      "x": 644,
+      "y": 18,
+      "width": 270,
+      "height": 368,
+      "pivotX": 0.6481481481481481,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        23365
+      ]
+    },
+    {
+      "x": 958,
+      "y": 19,
+      "width": 269,
+      "height": 366,
+      "pivotX": 0.654275092936803,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        24933
+      ]
+    },
+    {
+      "x": 17,
+      "y": 446,
+      "width": 277,
+      "height": 358,
+      "pivotX": 0.6606498194945848,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        559439
+      ]
+    },
+    {
+      "x": 350,
+      "y": 447,
+      "width": 273,
+      "height": 357,
+      "pivotX": 0.7252747252747253,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        561031
+      ]
+    },
+    {
+      "x": 665,
+      "y": 446,
+      "width": 264,
+      "height": 358,
+      "pivotX": 0.7253787878787878,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        560072
+      ]
+    },
+    {
+      "x": 970,
+      "y": 446,
+      "width": 267,
+      "height": 358,
+      "pivotX": 0.4344569288389513,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        560414
+      ]
+    },
+    {
+      "x": 20,
+      "y": 859,
+      "width": 278,
+      "height": 352,
+      "pivotX": 0.3471223021582734,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        1077359,
+        1141345
+      ]
+    },
+    {
+      "x": 317,
+      "y": 858,
+      "width": 322,
+      "height": 352,
+      "pivotX": 0.2950310559006211,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        1076433,
+        1410114
+      ]
+    },
+    {
+      "x": 644,
+      "y": 869,
+      "width": 343,
+      "height": 341,
+      "pivotX": 0.35131195335276966,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        1090511,
+        1493132
+      ]
+    },
+    {
+      "x": 985,
+      "y": 867,
+      "width": 243,
+      "height": 343,
+      "pivotX": 0.39094650205761317,
+      "pivotY": 0.0,
+      "alphaSeeds": [
+        1088320
+      ]
+    }
+  ]
+}

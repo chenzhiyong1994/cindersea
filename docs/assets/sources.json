@@ -1,0 +1,67 @@
+{
+  "note": "Website derivatives of existing project assets. Refer to repository license and provenance documentation for reuse terms. Source paths are relative to the development repository; QA screenshot provenance is recorded even where the private QA directory is not distributed.",
+  "emblem": {
+    "source": "Original geometric emblem created for this website",
+    "file": "emblem.svg",
+    "method": "Hand-authored SVG using a diamond, compass motif and ring"
+  },
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "sourceSha256": "096aecb524476cc6e076a6bef9dbccc1ae29937af1052a00d1fe4e2804212cd6",
+      "use": "Official title environment",
+      "transform": "FFmpeg 8.1.1; WebP quality 85; resized to width 1920 preserving aspect ratio",
+      "file": "yaojing.webp",
+      "outputSha256": "778e2166bb4adc6f7f14f768b7b86b8255c43dbc9fd625d431666a48fa10af6a",
+      "source": "native/Dicebound/Assets/Resources/Tactics/Jade/title-environment.png"
+    },
+    {
+      "sourceSha256": "2c3576078bef5a341b5662bb34511c8e44f73e89745ec3741ba250b884b10568",
+      "use": "Development gameplay screenshot; not a current-beta acceptance record",
+      "transform": "FFmpeg 8.1.1; WebP quality 88; original 1600x900 preserved",
+      "file": "battle-development.webp",
+      "outputSha256": "89918c07d050f65b5e4a2d553f1373bc622242f90d4da7cb8883672d4e2224c4",
+      "source": ".qa/experience-player-1600-900-20261003-143357951/01-selected-skill.png"
+    },
+    {
+      "sourceSha256": "b9ceea7ad1af0fba65fe2432d936ff6bda4dcedd12ca1ef638f8c6a4f8cf9681",
+      "use": "Official character portrait",
+      "transform": "FFmpeg 8.1.1; WebP quality 85; resized to width 600 preserving aspect ratio",
+      "file": "sixuan.webp",
+      "outputSha256": "60c291a39d6d99968475eae3df663e387ee834dbc83f8a358e827c593c232645",
+      "source": "native/Dicebound/Assets/Resources/Art/Paper/Heroes/sixuan.png"
+    },
+    {
+      "sourceSha256": "b8c51541933e684197972a5d469992b823f1e384b8ecb2b772fe99fb96c8f549",
+      "use": "Official character portrait",
+      "transform": "FFmpeg 8.1.1; WebP quality 85; resized to width 600 preserving aspect ratio",
+      "file": "lingfeng.webp",
+      "outputSha256": "5dcb40e7e77df0ca4213558fd92f22bacd0c17df3ba815e998b0a6d09fe779a5",
+      "source": "native/Dicebound/Assets/Resources/Art/Paper/Heroes/lingfeng.png"
+    },
+    {
+      "sourceSha256": "853252f1a0a8bc55e5a7c977e45c5a7a5b37aa432677c61fdc8f09e3df87914e",
+      "use": "Official character portrait",
+      "transform": "FFmpeg 8.1.1; WebP quality 85; resized to width 600 preserving aspect ratio",
+      "file": "cangling.webp",
+      "outputSha256": "73c93be88c7b53d343adebe9d550d4fd050a66150dcc6cfb7a44b496c37eb146",
+      "source": "native/Dicebound/Assets/Resources/Art/Paper/Heroes/cangling.png"
+    },
+    {
+      "sourceSha256": "c90e7564de83991b9aab12855fc297115d1146602085d92aed74ad58c38061e5",
+      "use": "Official character portrait",
+      "transform": "FFmpeg 8.1.1; WebP quality 85; resized to width 600 preserving aspect ratio",
+      "file": "yanzhuying.webp",
+      "outputSha256": "feacd12d2e35a62496d7d93b62c8b9310c635d1570b808498cf2ecc7f5d8cd05",
+      "source": "native/Dicebound/Assets/Resources/Art/Paper/Heroes/yanzhuying.png"
+    },
+    {
+      "sourceSha256": "538a2e86bebdc06d6e38033708f17d747a672a7f910819cbf4701a62659cbba7",
+      "use": "Official character portrait",
+      "transform": "FFmpeg 8.1.1; WebP quality 85; resized to width 600 preserving aspect ratio",
+      "file": "shangshuo.webp",
+      "outputSha256": "1b553ab9e4a648be676cb49b2590732218db6fc9d42f0467bec4b30accb18912",
+      "source": "native/Dicebound/Assets/Resources/Art/Paper/Heroes/shangshuo.png"
+    }
+  ]
+}

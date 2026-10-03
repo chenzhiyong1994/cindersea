@@ -1,0 +1,5 @@
+{
+  "name": "Dicebound.Core",
+  "rootNamespace": "Dicebound.Core",
+  "noEngineReferences": true
+}
