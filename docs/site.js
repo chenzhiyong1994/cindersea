@@ -2,7 +2,7 @@
 
 (() => {
   const english = {
-    skip: "Skip to content", brandSub: "烬海天阙", brandHome: "Dicebound home", navLabel: "Main navigation", navJourney: "The ascent", navCompanions: "Companions", navBeta: "About the beta",
+    skip: "Skip to content", brandSub: "烬海天阙", brandHome: "Cindersea home", navLabel: "Main navigation", navJourney: "The ascent", navCompanions: "Companions", navBeta: "About the beta",
     heroTag: "FIRST BETA · OPEN-SOURCE TACTICAL ROGUELIKE", heroLine: "Three companions. Twelve floors. One shared ascent.",
     heroDescription: "Enter Yaojing, a city of mountain kingdoms and ancient machinery. Choose your companions. Turn terrain, skills and relics into a winning strategy. Every floor brings a different possibility.",
     source: "Explore the source", download: "Download Windows Beta", portable: "Portable ZIP", checksums: "SHA-256 checksums", releaseNotes: "Release notes", downloadLinksLabel: "Other downloads and release information", singlePlayer: "Single-player · Chinese UI", scroll: "Discover the journey", factsLabel: "Beta content",
@@ -15,7 +15,7 @@
     companionsKicker: "02 / COMPANIONS", companionsTitle: "Five strengths. Three paths entwined.", companionsIntro: "Distinct skills. Different roles.<br>Select a companion to discover their place in the party.", selectCompanion: "Select a companion",
     nameSixuan: "Si Xuan", nameLingfeng: "Ling Feng", nameCangling: "Cang Ling", nameYanzhuying: "Yan Zhuying", nameShangshuo: "Shang Shuo",
     roleSixuan: "Control · Protection", roleLingfeng: "Melee · Disruption", roleCangling: "Healing · Tides", roleYanzhuying: "Shadows · Ambush", roleShangshuo: "Guard · Retaliation", ultimateLabel: "SIGNATURE ULTIMATE",
-    betaKicker: "03 / FIRST BETA", betaTitle: "A first step.<br>An open invitation.", betaIntro: "This is Dicebound’s first open-source beta. Help shape its tactical feel, explore its builds, and refine the details of this hand-painted world.", feedback: "Share feedback or report an issue",
+    betaKicker: "03 / FIRST BETA", betaTitle: "A first step.<br>An open invitation.", betaIntro: "This is Cindersea’s first open-source beta. Help shape its tactical feel, explore its builds, and refine the details of this hand-painted world.", feedback: "Share feedback or report an issue",
     platformLabel: "CURRENT PLATFORM", platformValue: "Windows x64 · Single-player · Simplified Chinese game UI", packageLabel: "INSTALL & PLAY", packageValue: "Neither package requires Unity. The executables are not code-signed; Windows may display a publisher or reputation warning.", engineLabel: "DEVELOPMENT STACK", statusLabel: "BETA SCOPE", statusValue: "Balance, interfaces and effects are still evolving. Full regression testing and broad device compatibility checks have not been completed.", licenseLabel: "SOURCE & LICENSES", licenseValue: "See the repository’s licenses and provenance notes for the terms applying to code, artwork and third-party content.",
     closingTitle: "The next step is yours.", readBuild: "Read the build guide →", footerNote: "Together, toward the sky.", assetSources: "Website asset sources"
   };
@@ -81,8 +81,8 @@
     languageButton.textContent = language === "en" ? "中文" : "EN";
     languageButton.lang = language === "en" ? "zh-CN" : "en";
     languageButton.setAttribute("aria-label", language === "en" ? "切换至中文" : "Switch to English");
-    document.title = language === "en" ? "Dicebound · 烬海天阙 — First Beta" : "烬海天阙 · Dicebound — First Beta";
-    document.querySelector('meta[name="description"]').content = language === "en" ? "Three companions. Twelve floors. Dicebound is an open-source single-player tactical roguelike in a hand-painted fantasy world. First beta for Windows, with Simplified Chinese game UI." : "三人同行，十二层登阙。烬海天阙 Dicebound 是一款以手绘东方幻想世界为舞台的单人战棋 roguelike，首个 Beta 已开源。";
+    document.title = language === "en" ? "Cindersea · 烬海天阙 — First Beta" : "烬海天阙 · Cindersea — First Beta";
+    document.querySelector('meta[name="description"]').content = language === "en" ? "Three companions. Twelve floors. Cindersea is an open-source single-player tactical roguelike in a hand-painted fantasy world. First beta for Windows, with Simplified Chinese game UI." : "三人同行，十二层登阙。烬海天阙 Cindersea 是一款以手绘东方幻想世界为舞台的单人战棋 roguelike，首个 Beta 已开源。";
     showCompanion(selected);
   }
 

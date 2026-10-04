@@ -5,14 +5,14 @@
 <a id="download"></a>
 ## Download and play / 下载游玩
 
-For **Windows x64**, choose a package from [Beta 1](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1):
+For **Windows x64**, choose a package from [Beta 1](https://github.com/chenzhiyong1994/cindersea/releases/tag/v0.22.4-beta.1):
 
-在 **Windows x64** 上，从 [Beta 1 发行页](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1)选择：
+在 **Windows x64** 上，从 [Beta 1 发行页](https://github.com/chenzhiyong1994/cindersea/releases/tag/v0.22.4-beta.1)选择：
 
 | Package / 发行包 | Use / 使用方式 |
 | --- | --- |
-| [Setup.exe](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe) | Follow the setup wizard / 按向导完成安装 |
-| [Portable ZIP / 免安装 ZIP](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) | Extract everything, then run `Dicebound.exe` / 完整解压后运行 `Dicebound.exe` |
+| [Setup.exe](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe) | Follow the setup wizard / 按向导完成安装 |
+| [Portable ZIP / 免安装 ZIP](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) | Extract everything, then run `Dicebound.exe` / 完整解压后运行 `Dicebound.exe` |
 
 You do not need Unity, PowerShell 7, or the .NET SDK to play. Keep all portable-package files together. The game interface is in Simplified Chinese. Both packages contain the same Beta 1 game; the installer and game executable are not code-signed, so Windows may show a publisher or reputation warning.
 
@@ -22,9 +22,9 @@ The installer runs **for the current user without administrator privileges**, us
 
 安装程序**仅为当前用户安装，无需管理员权限**，默认目录为 `%LOCALAPPDATA%\Programs\Dicebound`。安装后提供开始菜单入口，桌面快捷方式可按需勾选。可在 Windows 设置中卸载；卸载会移除安装的程序文件和快捷方式，并保留 LocalLow 中的存档。免安装版使用相同的存档位置。
 
-Download [SHA256SUMS.txt](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) from the same release. In PowerShell, compute the downloaded file's SHA-256 and compare the full value with its matching filename in that file:
+Download [SHA256SUMS.txt](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) from the same release. In PowerShell, compute the downloaded file's SHA-256 and compare the full value with its matching filename in that file:
 
-从同一发行页下载 [SHA256SUMS.txt](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt)，在 PowerShell 中计算已下载文件的 SHA-256，并与清单中对应文件名的完整值逐位核对：
+从同一发行页下载 [SHA256SUMS.txt](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/SHA256SUMS.txt)，在 PowerShell 中计算已下载文件的 SHA-256，并与清单中对应文件名的完整值逐位核对：
 
 ```powershell
 Get-FileHash "./Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe" -Algorithm SHA256

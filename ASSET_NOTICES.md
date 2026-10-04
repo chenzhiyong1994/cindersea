@@ -2,13 +2,13 @@
 
 ## License scope / 许可范围
 
-The root [MIT License](LICENSE) applies to Dicebound's original code, tools, and project documentation, except where a file states another license. It does **not** relicense illustrations, character and world material, videos, full-length music, fonts, third-party assets, or Unity components.
+The root [MIT License](LICENSE) applies to Cindersea's original code, tools, and project documentation, except where a file states another license. It does **not** relicense illustrations, character and world material, videos, full-length music, fonts, third-party assets, or Unity components.
 
-根目录 [MIT License](LICENSE) 适用于 Dicebound 原创代码、工具和项目文档，文件另有许可时以其说明为准。它**不将插画、角色与世界设定、视频、完整配乐、字体、第三方素材及 Unity 组件重新授权为 MIT**。
+根目录 [MIT License](LICENSE) 适用于 Cindersea 原创代码、工具和项目文档，文件另有许可时以其说明为准。它**不将插画、角色与世界设定、视频、完整配乐、字体、第三方素材及 Unity 组件重新授权为 MIT**。
 
-The maintainer has confirmed the right to publicly distribute the supplied worldbuilding, character materials, artwork, and seven Suno tracks with this project. This statement concerns their inclusion in Dicebound; it does not establish a separate open-content license or verify the music's generation-time subscription plan. Project art, story, video, and music are excluded from the code license. For reuse beyond rights already granted by an applicable license, contact the [maintainer](https://github.com/chenzhiyong1994).
+The maintainer has confirmed the right to publicly distribute the supplied worldbuilding, character materials, artwork, and seven Suno tracks with this project. This statement concerns their inclusion in Cindersea; it does not establish a separate open-content license or verify the music's generation-time subscription plan. Project art, story, video, and music are excluded from the code license. For reuse beyond rights already granted by an applicable license, contact the [maintainer](https://github.com/chenzhiyong1994).
 
-维护者已确认有权随本项目公开分发所提供的世界观、人物、美术和七首 Suno 配乐。该声明说明这些内容可随 Dicebound 公开提供，不代表额外授予独立开放内容许可，也不表示已核实音乐生成时的订阅方案。项目美术、故事、视频和完整配乐不包含在代码许可中。超出素材既有许可范围的复用，请联系[维护者](https://github.com/chenzhiyong1994)。
+维护者已确认有权随本项目公开分发所提供的世界观、人物、美术和七首 Suno 配乐。该声明说明这些内容可随 Cindersea 公开提供，不代表额外授予独立开放内容许可，也不表示已核实音乐生成时的订阅方案。项目美术、故事、视频和完整配乐不包含在代码许可中。超出素材既有许可范围的复用，请联系[维护者](https://github.com/chenzhiyong1994)。
 
 Nothing in this notice restricts permissions already granted by CC0, the SIL Open Font License, or another applicable third-party license. Preserve the relevant license and copyright notices when redistributing those materials.
 
@@ -23,9 +23,9 @@ Nothing in this notice restricts permissions already granted by CC0, the SIL Ope
 | Seven full-length music tracks / 七首完整配乐 | Supplied Suno-generated tracks: 江湖启程、晴岚行路、回水交锋、强敌临阵、天阙决战、同袍凯旋、余烬再行. / 由维护者提供，随游戏分场景播放。 |
 | Game meshes, shaders, effect timing, and procedural sound code / 游戏网格、Shader、特效时序与程序音效代码 | Project implementation; code license applies to original code, while incorporated textures and samples retain their own licenses. / 原创实现适用代码许可，其中使用的贴图与采样保留独立许可。 |
 
-The generated music and video providers do not endorse Dicebound. Provider terms and underlying rights are separate from the project's code license. See [Suno's terms](https://suno.com/terms) for its service conditions; this repository does not certify an individual track's copyright status or grant rights owned by another party.
+The generated music and video providers do not endorse Cindersea. Provider terms and underlying rights are separate from the project's code license. See [Suno's terms](https://suno.com/terms) for its service conditions; this repository does not certify an individual track's copyright status or grant rights owned by another party.
 
-音乐与视频生成服务不代表对 Dicebound 的认可。服务条款和底层内容权利与项目代码许可相互独立；Suno 服务条件见其[官方条款](https://suno.com/terms)。本仓库不认证单首曲目的著作权状态，也不代替其他权利人授予权利。
+音乐与视频生成服务不代表对 Cindersea 的认可。服务条款和底层内容权利与项目代码许可相互独立；Suno 服务条件见其[官方条款](https://suno.com/terms)。本仓库不认证单首曲目的著作权状态，也不代替其他权利人授予权利。
 
 ## Third-party media / 第三方素材
 

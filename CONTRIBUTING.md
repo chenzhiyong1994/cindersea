@@ -1,8 +1,8 @@
 # Contributing · 参与贡献
 
-Thanks for helping improve Dicebound. The supported product is the Unity tactical roguelike in `native/Dicebound`; start with the [build guide](manual/build.md).
+Thanks for helping improve Cindersea. The supported product is the Unity tactical roguelike in `native/Dicebound`; start with the [build guide](manual/build.md).
 
-欢迎改进 Dicebound。当前维护对象是 `native/Dicebound` 中的 Unity 战棋 roguelike，请先阅读[构建说明](manual/build.md)。
+欢迎改进 Cindersea · 烬海天阙。当前维护对象是 `native/Dicebound` 中的 Unity 战棋 roguelike，请先阅读[构建说明](manual/build.md)。
 
 ## Issues / 问题反馈
 

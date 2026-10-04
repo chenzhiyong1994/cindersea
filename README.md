@@ -1,8 +1,10 @@
-# Dicebound · 烬海天阙
+# Cindersea · 烬海天阙
 
 **A single-player tactical roguelike set in a Chinese fantasy city.** Choose three companions, build their skills, and climb a branching twelve-floor route toward the sunwheel above Yaojing.
 
-[简体中文](README.zh-CN.md) · [Project website](https://chenzhiyong1994.github.io/dicebound/) · [Download & play](#play) · [Build the game](#build) · [Report a bug](https://github.com/chenzhiyong1994/dicebound/issues)
+[简体中文](README.zh-CN.md) · [Project website](https://chenzhiyong1994.github.io/cindersea/) · [Download & play](#play) · [Build the game](#build) · [Report a bug](https://github.com/chenzhiyong1994/cindersea/issues)
+
+**The project is now named Cindersea · 烬海天阙.** The existing **Beta 1** release keeps version **`v0.22.4-beta.1`** and its original `Dicebound` package and executable filenames.
 
 **Beta 1** is based on the playable **0.22.4** version. The game interface and story are currently in **Simplified Chinese**; these English docs do not imply an English localization.
 
@@ -30,9 +32,9 @@ The presentation combines painted environments, pixel characters, ink-and-jade p
 <a id="play"></a>
 ## Play
 
-**[Download Windows x64 installer · Beta 1](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe)**
+**[Download Windows x64 installer · Beta 1](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe)**
 
-[Portable ZIP](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) · [SHA-256 checksums](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) · [Release notes](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1)
+[Portable ZIP](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) · [SHA-256 checksums](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) · [Release notes](https://github.com/chenzhiyong1994/cindersea/releases/tag/v0.22.4-beta.1)
 
 Run the installer and follow its setup steps. For the portable version, extract the entire ZIP and run `Dicebound.exe`; keep its data folder, runtime files, and notices beside it. Neither package requires Unity or a development environment. The installer and game executable are not code-signed, so Windows may display a publisher or reputation warning. See the [download and checksum guide](manual/build.md#download) for package verification.
 
@@ -59,8 +61,8 @@ Progress saves automatically. Settings include save import/export, audio levels,
 The supported build target is **Windows x64**. Use **Unity 6000.3.24f1 (6.3 LTS)** with Windows Build Support and **PowerShell 7**. The project uses **URP 17.3.0**; Unity resolves dependencies from the committed package manifest and lockfile.
 
 ```powershell
-git clone https://github.com/chenzhiyong1994/dicebound.git
-cd dicebound
+git clone https://github.com/chenzhiyong1994/cindersea.git
+cd cindersea
 pwsh -NoProfile -File tools/build-native.ps1 -Editor "C:/path/to/6000.3.24f1/Editor/Unity.exe"
 ```
 

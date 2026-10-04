@@ -1,8 +1,10 @@
-# Dicebound · 烬海天阙
+# Cindersea · 烬海天阙
 
 **一款以东方幻想城市为背景的单人战棋 roguelike。** 从五位同行者中组成三人小队，在十二层分支旅途中学习招式、组合旧物，登上曜京天阙。
 
-[English](README.md) · [项目主页](https://chenzhiyong1994.github.io/dicebound/) · [下载游玩](#play) · [构建游戏](#build) · [反馈问题](https://github.com/chenzhiyong1994/dicebound/issues)
+[English](README.md) · [项目主页](https://chenzhiyong1994.github.io/cindersea/) · [下载游玩](#play) · [构建游戏](#build) · [反馈问题](https://github.com/chenzhiyong1994/cindersea/issues)
+
+**项目现名为 Cindersea · 烬海天阙。**现有 **Beta 1** 继续使用版本 **`v0.22.4-beta.1`**，发行包与可执行文件保留原有 `Dicebound` 文件名。
 
 这是基于可玩版本 **0.22.4** 的首个公开版本 **Beta 1**。游戏界面与剧情目前为**简体中文**，英文 README 仅为项目文档。
 
@@ -30,9 +32,9 @@
 <a id="play"></a>
 ## 开始游戏
 
-**[下载 Windows x64 安装包 · Beta 1](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe)**
+**[下载 Windows x64 安装包 · Beta 1](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64-Setup.exe)**
 
-[免安装 ZIP](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) · [SHA-256 校验值](https://github.com/chenzhiyong1994/dicebound/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) · [版本说明](https://github.com/chenzhiyong1994/dicebound/releases/tag/v0.22.4-beta.1)
+[免安装 ZIP](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/Dicebound-0.22.4-beta.1-Windows-x64.zip) · [SHA-256 校验值](https://github.com/chenzhiyong1994/cindersea/releases/download/v0.22.4-beta.1/SHA256SUMS.txt) · [版本说明](https://github.com/chenzhiyong1994/cindersea/releases/tag/v0.22.4-beta.1)
 
 下载安装包后，按向导完成安装。使用免安装版时，完整解压 ZIP 再运行 `Dicebound.exe`；请保留同目录的数据文件夹、运行库和许可说明。两种方式都不需要安装 Unity 或开发环境。安装程序与游戏程序尚未进行代码签名，Windows 可能显示发布者或信誉提示；[下载与校验说明](manual/build.md#download)提供文件校验方法。
 
@@ -59,8 +61,8 @@
 当前支持 **Windows x64**。使用 **Unity 6000.3.24f1（6.3 LTS）**、Windows Build Support 和 **PowerShell 7**。项目使用 **URP 17.3.0**，依赖版本由提交的 package manifest 与 lockfile 固定。
 
 ```powershell
-git clone https://github.com/chenzhiyong1994/dicebound.git
-cd dicebound
+git clone https://github.com/chenzhiyong1994/cindersea.git
+cd cindersea
 pwsh -NoProfile -File tools/build-native.ps1 -Editor "C:/path/to/6000.3.24f1/Editor/Unity.exe"
 ```
 

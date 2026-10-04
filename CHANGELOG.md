@@ -1,5 +1,11 @@
 # Changelog · 更新记录
 
+## Project rename / 项目更名 — 2026-10-04
+
+The project is now **Cindersea · 烬海天阙**. The repository, website, and documentation use the new name. The current Beta 1 remains **`v0.22.4-beta.1`** with its original `Dicebound` package and executable filenames; this branding update does not change gameplay.
+
+项目现名为 **Cindersea · 烬海天阙**，仓库、主页和文档同步使用新名称。当前 Beta 1 仍为 **`v0.22.4-beta.1`**，发行包与可执行文件保留原有 `Dicebound` 文件名；本次品牌更新不改变玩法。
+
 ## Beta 1 — 2026-10-03
 
 First public beta, based on gameplay version **0.22.4**. The **`v0.22.4-beta.1`** distribution includes the Unity source project, a Windows x64 installer, a portable ZIP, and SHA-256 checksums. See [downloads](README.md#play) or [build from source](README.md#build).

@@ -159,8 +159,8 @@ Code is MIT licensed. Art, music, fonts, and other materials retain their own
 licenses. See Credits/ASSET_NOTICES.md and the accompanying license files.
 代码使用 MIT 许可；素材保留各自许可，详见 Credits 目录。
 
-Source / 源码: https://github.com/chenzhiyong1994/dicebound
-Feedback / 反馈: https://github.com/chenzhiyong1994/dicebound/issues
+Source / 源码: https://github.com/chenzhiyong1994/cindersea
+Feedback / 反馈: https://github.com/chenzhiyong1994/cindersea/issues
 '@ | Set-Content -LiteralPath (Join-Path $payload 'START_HERE.txt') -Encoding UTF8
 
 $sourceRevision = $null
